@@ -1,0 +1,154 @@
+.sidebar {
+ width: 45vh;
+ height: 212vh;
+ display: flex;
+ flex-direction: column;
+ color: #000000;
+ z-index: 9;
+ background-color: #FFFFFF;
+ box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.13);
+}
+
+.sidebar .topSide {
+ width: 100%;
+ height: 30vh;
+}
+
+.sidebar .topSide ul {
+ width: 100%;
+ padding: 0;
+ list-style-type: none;
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+}
+
+.sidebar .topSide .btnn {
+ width: 100%;
+ height: 15vh;
+ padding-left: 20px;
+ background-color: transparent;
+ outline: none;
+ border: 0px;
+ display: flex;
+ flex-direction: row;
+ text-decoration: none;
+ align-items: center;
+}
+
+.sidebar .topSide .btnn img {
+ width: 16px;
+ height: 15px;
+ margin-right: 8px;
+ margin-top: -7px;
+}
+
+
+.sidebar .topSide .btnn h1 {
+ font-family: 'Work Sans';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 19px;
+ line-height: 19px;
+ color: #213F7D;
+}
+
+.sidebar .topSide .btnn .angle-down {
+ font-family: 'Work Sans';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ margin-top: -1px;
+ margin-left: 8px;
+ line-height: 19px;
+ color: #213F7D;
+}
+
+.sidebar .topSide .li {
+ width: 100%;
+ padding-left: 20px;
+ height: 15vh;
+ display: flex;
+ flex-direction: row;
+ text-decoration: none;
+ align-items: center;
+}
+
+.sidebar .topSide .li img {
+ width: 16px;
+ height: 15px;
+ margin-right: 8px;
+ margin-top: -7px;
+}
+
+
+.sidebar .topSide .li h1 {
+ font-family: 'Work Sans';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 19px;
+ color: #21407da9;
+}
+
+.sidebar .subTitle {
+ width: 100%;
+ height: 35px;
+ display: flex;
+ align-items: center;
+ padding-left: 20px;
+}
+
+.sidebar .subTitle h1 {
+ color: #545F7D;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 14px;
+}
+
+.sidebar .options {
+ width: 100%;
+ display: flex;
+ margin-bottom: 40px;
+ flex-direction: column;
+}
+
+.sidebar .options .li {
+ width: 100%;
+ padding-left: 20px;
+ height: 8vh;
+ display: flex;
+ flex-direction: row;
+ text-decoration: none;
+ align-items: center;
+}
+
+.sidebar .options .li.active {
+ background-color: #39cdcd50;
+ border-left: 4px solid #39CDCC;
+}
+
+.sidebar .options .li.active h1 {
+ color: #213F7D;
+ font-weight: 400;
+}
+
+
+.sidebar .options .li img {
+ width: 16px;
+ height: 15px;
+ margin-right: 8px;
+ margin-top: 0px;
+}
+
+
+.sidebar .options .li h1 {
+ font-family: 'Work Sans';
+ font-style: normal;
+ margin-top: 10px;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 19px;
+ color: #21407da9;
+}

@@ -1,0 +1,2912 @@
+.userpage {
+ width: 100%;
+ height: 222vh;
+ background-color: whitesmoke;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.userpage .laptopSize {
+ width: 1000px;
+ height: 167vh;
+}
+
+.userpage .laptopSize .Title {
+ margin-top: 20px;
+ width: 1000px;
+ height: 80px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: start;
+}
+
+.userpage .laptopSize h1 {
+ font-style: normal;
+ font-weight: bold;
+ font-size: 24px;
+ line-height: 28px;
+ color: #213F7D;
+}
+
+.userpage .laptopSize .cards {
+ width: 1000px;
+ height: 180px;
+ display: flex;
+ margin-bottom: 40px;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.userpage .laptopSize .cards .card {
+ width: 240px;
+ border-radius: 4px;
+ height: 180px;
+ border: 0;
+ display: flex;
+ flex-direction: column;
+}
+
+.userpage .laptopSize .cards .card .card-top {
+ width: 220px;
+ padding-left: 20px;
+ height: 80px;
+ display: flex;
+ align-items: center;
+}
+
+.userpage .laptopSize .cards .card .card-top img {
+ width: 40px;
+ height: 40px;
+}
+
+.userpage .laptopSize .cards .card .card-body {
+ width: 220px;
+ padding-left: 20px;
+ height: 40px;
+ display: flex;
+ align-items: center;
+}
+
+.userpage .laptopSize .cards .card .card-body h1 {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ text-transform: uppercase;
+ color: #545F7D;
+}
+
+.userpage .laptopSize .cards .card .card-footer {
+ width: 220px;
+ padding-left: 20px;
+ border: 0;
+ height: 60px;
+ display: flex;
+ background-color: transparent;
+ align-items: center;
+}
+
+.userpage .laptopSize .cards .card .card-footer h1 {
+ font-style: normal;
+ font-weight: bolder;
+ font-size: 24px;
+ line-height: 28px;
+ text-transform: uppercase;
+ color: #213F7D;
+}
+
+.userpage .laptopSize .displayUsers {
+ width: 1000px;
+ height: 790px;
+ border-radius: 4px;
+ background-color: #FFFFFF;
+}
+
+.userpage .laptopSize .displayUsers .filterBar {
+ width: 958px;
+ height: 80px;
+ display: flex;
+ flex-direction: row;
+ z-index: 8;
+ justify-content: space-between;
+ border-radius: 4px;
+}
+
+.userpage .laptopSize .displayUsers .filterBar .filter {
+ width: 270px;
+ height: 715px;
+ margin-top: 80px;
+ background: #FFFFFF;
+ border: 1px solid rgba(84, 95, 125, 0.14);
+ box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+ border-radius: 4px;
+ display: flex;
+ flex-direction: column;
+ padding-left: 18px;
+ padding-top: 40px;
+ align-items: start;
+ position: absolute;
+}
+
+.userpage .laptopSize .displayUsers .filterBar .filter label {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ margin-bottom: 6px;
+ color: #545F7D;
+}
+
+.userpage .laptopSize .displayUsers .filterBar .filter input {
+ width: 230px;
+ height: 40px;
+ margin-bottom: 20px;
+ background: #FFFFFF;
+ border: 1px solid #21407d2c;
+ border-radius: 8px;
+ font-style: normal;
+ outline: none;
+ font-weight: 400;
+ padding-left: 20px;
+ font-size: 14px;
+ line-height: 16px;
+ color: #545F7D;
+}
+
+.userpage .laptopSize .displayUsers .filterBar .filter select {
+ width: 230px;
+ height: 40px;
+ margin-bottom: 20px;
+ background: #FFFFFF;
+ border: 1px solid #21407d2c;
+ border-radius: 8px;
+ padding-left: 15px;
+ outline: none;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 16px;
+ color: #545F7D;
+}
+
+.userpage .laptopSize .displayUsers .filterBar .filter .filterBtn {
+ width: 230px;
+ height: 40px;
+ margin-bottom: 20px;
+ background: #FFFFFF;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.userpage .laptopSize .displayUsers .filterBar .filter .filterBtn input {
+ width: 100px;
+ height: 40px;
+ margin-bottom: 20px;
+ padding: 0;
+ background: #FFFFFF;
+ opacity: 1;
+ border: 1px solid #213F7D;
+ border-radius: 8px;
+}
+
+#reset {
+ border: 2px solid #545F7D;
+ color: #545F7D;
+}
+
+#filte {
+ border: 0;
+ background-color: #39CDCC;
+ color: #FFFFFF;
+}
+
+.userpage .laptopSize .displayUsers .filterBar .filters {
+ width: 159.66px;
+ height: 80px;
+ display: flex;
+ flex-direction: row;
+ padding-left: 20px;
+ align-items: center;
+ background-color: #FFFFFF;
+ outline: none;
+ border: 0px;
+}
+
+.userpage .laptopSize .displayUsers .filterBar .filters h1 {
+ font-style: normal;
+ font-weight: bolder;
+ font-size: 13px;
+ line-height: 14px;
+ text-transform: uppercase;
+ color: #545F7D;
+}
+
+.userpage .laptopSize .displayUsers .filterBar .filters button {
+ background-color: transparent;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 30px;
+ outline: none;
+ border: 0;
+ height: 30px;
+}
+
+.userpage .laptopSize .displayUsers .filterBar .filters img {
+ width: 14px;
+ height: 9.67px;
+ margin-top: -5px;
+}
+
+.userpage .laptopSize .displayUsers .displayU {
+ width: 1000px;
+ display: flex;
+ flex-direction: column;
+ padding-left: 20px;
+ padding-right: 20px;
+ height: 710px;
+}
+
+.userpage .laptopSize .displayUsers .displayU li {
+ width: 958px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ height: 78.88px;
+ border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+}
+
+.userpage .laptopSize .displayUsers .displayU li .details {
+ width: 159.66px;
+ display: flex;
+ align-items: center;
+ text-align: left;
+ justify-content: left;
+ font-size: 10px;
+ padding-right: 10px;
+ font-style: normal;
+ font-weight: 400;
+ color: #545F7D;
+ height: 78.88px;
+}
+
+.userpage .laptopSize .displayUsers .displayU li #status {
+ width: 159.66px;
+ display: flex;
+ align-items: center;
+ justify-content: left;
+ justify-content: space-between;
+}
+
+.userpage .laptopSize .displayUsers .displayU li #status button {
+ width: 100px;
+ height: 40px;
+ display: flex;
+ border: 0;
+ outline: none;
+ border-radius: 100px;
+ align-items: center;
+ justify-content: center;
+}
+
+
+.userpage .laptopSize .displayUsers .displayU li #status .statOpt {
+ width: 15px;
+ height: 40px;
+ display: flex;
+ align-items: center;
+ background-color: transparent !important;
+ justify-content: center;
+}
+
+.userpage .laptopSize .displayUsers .displayU li #status .statOpt .ellipsis-vertical {
+ width: 100%;
+ height: 20px;
+ color: #545F7D;
+}
+
+.userpage .laptopSize .displayUsers .displayU li #status .statO {
+ width: 180px;
+ background-color: #FFFFFF;
+ height: 130px;
+ display: flex;
+ z-index: 12;
+ flex-direction: column;
+ margin-top: 200px;
+ border: 1px solid rgba(84, 95, 125, 0.04);
+ box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+ border-radius: 4px;
+ position: absolute;
+}
+
+.userpage .laptopSize .displayUsers .displayU li #status .statO button {
+ width: 180px;
+ background-color: #FFFFFF;
+ height: 43.33px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.userpage .laptopSize .displayUsers .displayU li #status .statO button img {
+ width: 14px;
+ margin-top: -7px;
+ margin-right: 10px;
+ height: 14px;
+}
+
+.userpage .laptopSize .displayUsers .displayU li #status .statO button h1 {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ color: #545F7D;
+}
+
+.userpage .laptopSize .displayUsers .displayU li #status .statO .button {
+ width: 180px;
+ background-color: #FFFFFF;
+ height: 43.33px;
+ display: flex;
+ padding: 0;
+ padding-top: 10px;
+ padding-right: 9px;
+ margin: 0;
+ text-decoration: none;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.userpage .laptopSize .displayUsers .displayU li #status .statO .button img {
+ width: 14px;
+ margin-top: -7px;
+ margin-right: 10px;
+ height: 14px;
+}
+
+.userpage .laptopSize .displayUsers .displayU li #status .statO .button h1 {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ color: #545F7D;
+}
+
+.userpage .laptopSize .pageNo {
+ width: 1000px;
+ height: 50px;
+ display: flex;
+ align-items: center;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.userpage .laptopSize .pageNo ul {
+ width: 280px;
+ height: 50px;
+ display: flex;
+ align-items: center;
+ margin-top: 12px;
+ flex-direction: row;
+ justify-content: space-between;
+ padding: 0px;
+}
+
+.userpage .laptopSize .pageNo .showing {
+ height: 50px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ width: 200px;
+}
+
+.userpage .laptopSize .pageNo .showing h1 {
+ font-family: 'Work Sans';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 16px;
+ color: #545F7D;
+ width: 75px;
+}
+
+.userpage .laptopSize .pageNo .showing select {
+ font-family: 'Work Sans';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ margin-top: -9px;
+ line-height: 16px;
+ background-color: #21407d38;
+ border-radius: 4px;
+ color: #213F7D;
+ width: 50px;
+ height: 25px;
+ border: 0;
+ outline: none;
+}
+
+.userpage .laptopSize .pageNo ul li button {
+ background-color: transparent;
+ border: 0;
+ box-shadow: none;
+ color: #545F7D;
+ outline: none;
+}
+
+.userpage .laptopSize .pageNo ul li button.page-link.active-button {
+ color: #213F7D;
+ font-weight: bold;
+ /* Change the color to your desired value */
+}
+
+.userpage .laptopSize .pageNo .short {
+ color: #213F7D !important;
+
+ background-color: #21407d38 !important;
+ border-radius: 4px;
+ border: 0;
+ outline: none;
+ width: 34px;
+ height: 34px;
+}
+
+@media (min-width:900px) and (max-width:999px) {
+ .userpage {
+  width: 100%;
+  height: 212vh;
+ }
+
+ .userpage .laptopSize {
+  width: 900px;
+  height: 167vh;
+ }
+
+ .userpage .laptopSize .Title {
+  margin-top: 20px;
+  width: 900px;
+  height: 80px;
+ }
+
+ .userpage .laptopSize h1 {
+  font-size: 24px;
+ }
+
+ .userpage .laptopSize .cards {
+  width: 900px;
+  height: 180px;
+  margin-bottom: 40px;
+ }
+
+ .userpage .laptopSize .cards .card {
+  width: 215px;
+  border-radius: 4px;
+  height: 180px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top {
+  width: 195px;
+  padding-left: 20px;
+  height: 80px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top img {
+  width: 40px;
+  height: 40px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body {
+  width: 195px;
+  padding-left: 20px;
+  height: 40px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body h1 {
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer {
+  width: 195px;
+  padding-left: 20px;
+  height: 60px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer h1 {
+  font-size: 24px;
+  line-height: 28px;
+ }
+
+ .userpage .laptopSize .displayUsers {
+  width: 900px;
+  height: 790px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar {
+  width: 858px;
+  height: 80px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter {
+  width: 270px;
+  height: 715px;
+  margin-top: 80px;
+  padding-left: 18px;
+  padding-top: 40px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter label {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 6px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter input {
+  width: 230px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter select {
+  width: 230px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn {
+  width: 230px;
+  height: 40px;
+  margin-bottom: 20px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn input {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 0;
+ }
+
+ #reset {
+  border: 2px solid #545F7D;
+  color: #545F7D;
+ }
+
+ #filte {
+  border: 0;
+  background-color: #39CDCC;
+  color: #FFFFFF;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters {
+  width: 143px;
+  height: 80px;
+  padding-left: 20px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters h1 {
+  font-size: 10px;
+  line-height: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters button {
+  width: 30px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters img {
+  width: 10px;
+  height: 8.67px;
+  margin-top: -5px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU {
+  width: 900px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 710px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li {
+  width: 858px;
+  height: 78.88px;
+  border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li .details {
+  width: 143px;
+  font-size: 8.5px;
+  padding-right: 10px;
+  height: 78.88px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status {
+  width: 143px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status button {
+  width: 70px;
+  height: 30px;
+  border: 0;
+  border-radius: 100px;
+ }
+
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt {
+  width: 15px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt .ellipsis-vertical {
+  width: 100%;
+  height: 15px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO {
+  width: 180px;
+  background-color: #FFFFFF;
+  height: 130px;
+  z-index: 12;
+  margin-top: 200px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button {
+  width: 180px;
+  background-color: #FFFFFF;
+  height: 43.33px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button img {
+  width: 14px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button h1 {
+  font-weight: 500;
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button {
+  width: 180px;
+  height: 43.33px;
+  padding: 0;
+  padding-top: 10px;
+  padding-right: 9px;
+  margin: 0;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button img {
+  width: 14px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .pageNo {
+  width: 900px;
+  height: 50px;
+ }
+
+ .userpage .laptopSize .pageNo ul {
+  width: 280px;
+  height: 50px;
+  margin-top: 12px;
+  padding: 0px;
+ }
+
+ .userpage .laptopSize .pageNo .showing {
+  height: 50px;
+  width: 200px;
+ }
+
+ .userpage .laptopSize .pageNo .showing h1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  width: 75px;
+ }
+
+ .userpage .laptopSize .pageNo .showing select {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: -9px;
+  width: 50px;
+  height: 25px;
+ }
+
+ .userpage .laptopSize .pageNo ul li button {
+  box-shadow: none;
+  outline: none;
+ }
+
+ .userpage .laptopSize .pageNo ul li button.page-link.active-button {
+  color: #213F7D;
+  font-weight: bold;
+  /* Change the color to your desired value */
+ }
+
+ .userpage .laptopSize .pageNo .short {
+  border-radius: 4px;
+  width: 34px;
+  height: 34px;
+ }
+}
+
+@media (min-width:800px) and (max-width:899px) {
+ .userpage {
+  width: 100%;
+  height: 212vh;
+ }
+
+ .userpage .laptopSize {
+  width: 800px;
+  height: 167vh;
+ }
+
+ .userpage .laptopSize .Title {
+  margin-top: 20px;
+  width: 800px;
+  height: 80px;
+ }
+
+ .userpage .laptopSize h1 {
+  font-size: 24px;
+ }
+
+ .userpage .laptopSize .cards {
+  width: 800px;
+  height: 180px;
+  margin-bottom: 40px;
+ }
+
+ .userpage .laptopSize .cards .card {
+  width: 190px;
+  border-radius: 4px;
+  height: 160px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top {
+  width: 170px;
+  padding-left: 20px;
+  height: 70px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top img {
+  width: 40px;
+  height: 40px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body {
+  width: 170px;
+  padding-left: 20px;
+  height: 40px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body h1 {
+  font-size: 13px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer {
+  width: 170px;
+  padding-left: 20px;
+  height: 50px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer h1 {
+  font-size: 24px;
+  line-height: 28px;
+ }
+
+ .userpage .laptopSize .displayUsers {
+  width: 800px;
+  height: 790px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar {
+  width: 758px;
+  height: 80px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter {
+  width: 270px;
+  height: 715px;
+  margin-top: 80px;
+  padding-left: 18px;
+  padding-top: 40px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter label {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 6px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter input {
+  width: 230px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter select {
+  width: 230px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn {
+  width: 230px;
+  height: 40px;
+  margin-bottom: 20px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn input {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 0;
+ }
+
+ #reset {
+  border: 2px solid #545F7D;
+  color: #545F7D;
+ }
+
+ #filte {
+  border: 0;
+  background-color: #39CDCC;
+  color: #FFFFFF;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters {
+  width: 126.34px;
+  height: 80px;
+  padding-left: 20px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters h1 {
+  font-size: 9px;
+  line-height: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters button {
+  width: 30px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters img {
+  width: 10px;
+  height: 8.67px;
+  margin-top: -5px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU {
+  width: 800px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 710px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li {
+  width: 758px;
+  height: 78.88px;
+  border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li .details {
+  width: 126.34px;
+  font-size: 8px;
+  padding-right: 10px;
+  height: 78.88px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status {
+  width: 126.34px;
+
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status button {
+  width: 70px;
+  height: 30px;
+  border: 0;
+  border-radius: 100px;
+ }
+
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt {
+  width: 15px;
+
+  height: 30px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt .ellipsis-vertical {
+  width: 100%;
+  height: 15px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO {
+  width: 180px;
+  background-color: #FFFFFF;
+  height: 130px;
+  z-index: 12;
+  right: 0;
+  margin-top: 200px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button {
+  width: 180px;
+  background-color: #FFFFFF;
+  height: 43.33px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button img {
+  width: 14px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button h1 {
+  font-weight: 500;
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button {
+  width: 180px;
+  height: 43.33px;
+  padding: 0;
+  padding-top: 10px;
+  padding-right: 9px;
+  margin: 0;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button img {
+  width: 14px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .pageNo {
+  width: 800px;
+  height: 50px;
+ }
+
+ .userpage .laptopSize .pageNo ul {
+  width: 280px;
+  height: 50px;
+  margin-top: 12px;
+  padding: 0px;
+ }
+
+ .userpage .laptopSize .pageNo .showing {
+  height: 50px;
+  width: 200px;
+ }
+
+ .userpage .laptopSize .pageNo .showing h1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  width: 75px;
+ }
+
+ .userpage .laptopSize .pageNo .showing select {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: -9px;
+  width: 50px;
+  height: 25px;
+ }
+
+ .userpage .laptopSize .pageNo ul li button {
+  box-shadow: none;
+  outline: none;
+ }
+
+ .userpage .laptopSize .pageNo ul li button.page-link.active-button {
+  color: #213F7D;
+  font-weight: bold;
+  /* Change the color to your desired value */
+ }
+
+ .userpage .laptopSize .pageNo .short {
+  border-radius: 4px;
+  width: 34px;
+  height: 34px;
+ }
+}
+
+@media (min-width:700px) and (max-width:799px) {
+ .userpage {
+  width: 100%;
+  height: 212vh;
+ }
+
+ .userpage .laptopSize {
+  width: 700px;
+  height: 167vh;
+ }
+
+ .userpage .laptopSize .Title {
+  margin-top: 20px;
+  width: 700px;
+  height: 80px;
+ }
+
+ .userpage .laptopSize h1 {
+  font-size: 24px;
+ }
+
+ .userpage .laptopSize .cards {
+  width: 700px;
+  height: 180px;
+  margin-bottom: 40px;
+ }
+
+ .userpage .laptopSize .cards .card {
+  width: 165px;
+  border-radius: 4px;
+  height: 140px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top {
+  width: 150px;
+  padding-left: 20px;
+  height: 60px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top img {
+  width: 40px;
+  height: 40px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body {
+  width: 150px;
+  padding-left: 20px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body h1 {
+  font-size: 11px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer {
+  width: 150px;
+  padding-left: 20px;
+  height: 50px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer h1 {
+  font-size: 18px;
+  line-height: 28px;
+ }
+
+ .userpage .laptopSize .displayUsers {
+  width: 700px;
+  height: 790px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar {
+  width: 658px;
+  height: 80px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter {
+  width: 270px;
+  height: 555px;
+  margin-top: 80px;
+  padding-left: 18px;
+  padding-top: 40px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter label {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 6px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter input {
+  width: 230px;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter select {
+  width: 230px;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn {
+  width: 230px;
+  height: 30px;
+  margin-bottom: 20px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn input {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 0;
+ }
+
+ #reset {
+  border: 2px solid #545F7D;
+  color: #545F7D;
+ }
+
+ #filte {
+  border: 0;
+  background-color: #39CDCC;
+  color: #FFFFFF;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters {
+  width: 109.68px;
+  height: 80px;
+  padding-left: 20px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters h1 {
+  font-size: 7.3px;
+  line-height: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters button {
+  width: 20px;
+  height: 20px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters img {
+  width: 8px;
+  height: 7.67px;
+  margin-top: -7px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU {
+  width: 700px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 710px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li {
+  width: 658px;
+  height: 78.88px;
+  border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li .details {
+  width: 109.68px;
+  font-size: 6.8px;
+  padding-right: 10px;
+  height: 78.88px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status {
+  width: 109.68px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status button {
+  width: 70px;
+  height: 30px;
+  border: 0;
+  border-radius: 100px;
+ }
+
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt {
+  width: 15px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt .ellipsis-vertical {
+  width: 100%;
+  height: 15px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO {
+  width: 180px;
+  background-color: #FFFFFF;
+  height: 130px;
+  z-index: 12;
+  right: 40px;
+  margin-top: 200px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button {
+  width: 180px;
+  background-color: #FFFFFF;
+  height: 43.33px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button img {
+  width: 14px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button h1 {
+  font-weight: 500;
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button {
+  width: 180px;
+  height: 43.33px;
+  padding: 0;
+  padding-top: 10px;
+  padding-right: 9px;
+  margin: 0;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button img {
+  width: 14px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .pageNo {
+  width: 700px;
+  height: 50px;
+ }
+
+ .userpage .laptopSize .pageNo ul {
+  width: 280px;
+  height: 50px;
+  margin-top: 12px;
+  padding: 0px;
+ }
+
+ .userpage .laptopSize .pageNo .showing {
+  height: 50px;
+  width: 200px;
+ }
+
+ .userpage .laptopSize .pageNo .showing h1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  width: 75px;
+ }
+
+ .userpage .laptopSize .pageNo .showing select {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: -9px;
+  width: 50px;
+  height: 25px;
+ }
+
+ .userpage .laptopSize .pageNo ul li button {
+  box-shadow: none;
+  outline: none;
+ }
+
+ .userpage .laptopSize .pageNo ul li button.page-link.active-button {
+  color: #213F7D;
+  font-weight: bold;
+  /* Change the color to your desired value */
+ }
+
+ .userpage .laptopSize .pageNo .short {
+  border-radius: 4px;
+  width: 34px;
+  height: 34px;
+ }
+}
+
+@media (min-width:600px) and (max-width:699px) {
+ .userpage {
+  width: 100%;
+  height: 212vh;
+ }
+
+ .userpage .laptopSize {
+  width: 600px;
+  height: 167vh;
+ }
+
+ .userpage .laptopSize .Title {
+  margin-top: 20px;
+  width: 600px;
+  height: 80px;
+ }
+
+ .userpage .laptopSize h1 {
+  font-size: 24px;
+ }
+
+ .userpage .laptopSize .cards {
+  width: 600px;
+  height: 180px;
+  margin-bottom: 40px;
+ }
+
+ .userpage .laptopSize .cards .card {
+  width: 140px;
+  border-radius: 4px;
+  height: 100px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top {
+  width: 130px;
+  padding-left: 20px;
+  height: 50px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top img {
+  width: 30px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body {
+  width: 130px;
+  padding-left: 20px;
+  height: 20px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body h1 {
+  font-size: 9px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer {
+  width: 130px;
+  padding-left: 20px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer h1 {
+  font-size: 13px;
+  line-height: 28px;
+ }
+
+ .userpage .laptopSize .displayUsers {
+  width: 600px;
+  height: 790px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar {
+  width: 558px;
+  height: 80px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter {
+  width: 270px;
+  height: 555px;
+  margin-top: 80px;
+  padding-left: 18px;
+  padding-top: 40px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter label {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 6px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter input {
+  width: 230px;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter select {
+  width: 230px;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  font-size: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn {
+  width: 230px;
+  height: 30px;
+  margin-bottom: 20px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn input {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 0;
+ }
+
+ #reset {
+  border: 2px solid #545F7D;
+  color: #545F7D;
+ }
+
+ #filte {
+  border: 0;
+  background-color: #39CDCC;
+  color: #FFFFFF;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters {
+  width: 93.02px;
+  height: 80px;
+  padding-left: 20px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters h1 {
+  font-size: 6.3px;
+  line-height: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters button {
+  width: 20px;
+  height: 20px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters img {
+  width: 8px;
+  height: 7.67px;
+  margin-top: -7px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU {
+  width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 710px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li {
+  width: 558px;
+  height: 78.88px;
+  border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li .details {
+  width: 93.02px;
+  font-size: 6px;
+  padding-right: 10px;
+  height: 78.88px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status {
+  width: 93.02px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status button {
+  width: 50px;
+  height: 20px;
+  border: 0;
+  border-radius: 100px;
+ }
+
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt {
+  width: 15px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt .ellipsis-vertical {
+  width: 100%;
+  height: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO {
+  width: 100px;
+  background-color: #FFFFFF;
+  height: 130px;
+  right: 0;
+  z-index: 12;
+  margin-top: 200px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button {
+  width: 100px;
+  background-color: #FFFFFF;
+  height: 43.33px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button img {
+  width: 10px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button h1 {
+  font-weight: 500;
+  font-size: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button {
+  width: 100px;
+  height: 43.33px;
+  padding: 0;
+  padding-top: 10px;
+  padding-right: 9px;
+  margin: 0;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button img {
+  width: 10px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+ }
+
+ .userpage .laptopSize .pageNo {
+  width: 600px;
+  height: 50px;
+ }
+
+ .userpage .laptopSize .pageNo ul {
+  width: 180px;
+  height: 50px;
+  margin-top: 12px;
+  padding: 0px;
+ }
+
+ .userpage .laptopSize .pageNo .showing {
+  height: 50px;
+  width: 155px;
+ }
+
+ .userpage .laptopSize .pageNo .showing h1 {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  width: 55px;
+ }
+
+ .userpage .laptopSize .pageNo .showing select {
+  font-weight: 400;
+  font-size: 10px;
+  margin-top: -9px;
+  width: 40px;
+  height: 18px;
+ }
+
+ .userpage .laptopSize .pageNo ul li button {
+  box-shadow: none;
+  outline: none;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .userpage .laptopSize .pageNo ul li button.page-link.active-button {
+  color: #213F7D;
+  font-weight: bold;
+  /* Change the color to your desired value */
+ }
+
+ .userpage .laptopSize .pageNo .short {
+  border-radius: 4px;
+  width: 24px;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+ }
+}
+
+@media (min-width:500px) and (max-width:599px) {
+ .userpage {
+  width: 100%;
+  height: 212vh;
+ }
+
+ .userpage .laptopSize {
+  width: 500px;
+  height: 167vh;
+ }
+
+ .userpage .laptopSize .Title {
+  margin-top: 20px;
+  width: 500px;
+  height: 60px;
+ }
+
+ .userpage .laptopSize h1 {
+  font-size: 24px;
+ }
+
+ .userpage .laptopSize .cards {
+  width: 500px;
+  height: 180px;
+  margin-bottom: 20px;
+ }
+
+ .userpage .laptopSize .cards .card {
+  width: 115px;
+  border-radius: 4px;
+  height: 85px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top {
+  width: 110px;
+  padding-left: 20px;
+  height: 40px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top img {
+  width: 25px;
+  height: 25px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body {
+  width: 110px;
+  padding-left: 20px;
+  height: 20px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body h1 {
+  font-size: 7px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer {
+  width: 110px;
+  padding-left: 20px;
+  height: 20px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer h1 {
+  font-size: 10px;
+  line-height: 28px;
+ }
+
+ .userpage .laptopSize .displayUsers {
+  width: 500px;
+  height: 531px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar {
+  width: 458px;
+  height: 80px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter {
+
+  height: 495px;
+  margin-top: 80px;
+  padding-left: 10px;
+  padding-top: 20px;
+  width: 203px !important;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter label {
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 6px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter input {
+  width: 180px;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-size: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter select {
+  width: 180px;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  font-size: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn {
+  width: 180px;
+  height: 30px;
+  margin-bottom: 20px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn input {
+  width: 80px;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 0;
+ }
+
+ #reset {
+  border: 2px solid #545F7D;
+  color: #545F7D;
+ }
+
+ #filte {
+  border: 0;
+  background-color: #39CDCC;
+  color: #FFFFFF;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters {
+  width: 93.02px;
+  height: 80px;
+  padding-left: 20px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters h1 {
+  font-size: 4.5px;
+  line-height: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters button {
+  width: 20px;
+  height: 20px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters img {
+  width: 8px;
+  height: 7.67px;
+  margin-top: -7px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU {
+  width: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 450px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li {
+  width: 458px;
+  height: 50px;
+  border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li .details {
+  width: 76.36px;
+  font-size: 4.6px;
+  margin-top: 0;
+  padding-right: 10px;
+  height: 50px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li .details h1 {
+  word-wrap: break-word;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status {
+  width: 76.36px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status button {
+  width: 40px;
+  height: 18px;
+  border: 0;
+  border-radius: 100px;
+ }
+
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt {
+  width: 15px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt .ellipsis-vertical {
+  width: 100%;
+  height: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO {
+  width: 100px;
+  background-color: #FFFFFF;
+  height: 100px;
+  z-index: 12;
+  right: 0;
+  margin-top: 140px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button {
+  width: 100px;
+  background-color: #FFFFFF;
+  height: 33.33px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button img {
+  width: 10px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button h1 {
+  font-weight: 500;
+  font-size: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button {
+  width: 100px;
+  height: 33.33px;
+  padding: 0;
+  padding-top: 10px;
+  padding-right: 9px;
+  margin: 0;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button img {
+  width: 10px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+ }
+
+ .userpage .laptopSize .pageNo {
+  width: 500px;
+  height: 50px;
+ }
+
+ .userpage .laptopSize .pageNo ul {
+  width: 160px;
+  height: 50px;
+  margin-top: 12px;
+  padding: 0px;
+ }
+
+ .userpage .laptopSize .pageNo .showing {
+  height: 50px;
+  width: 155px;
+  margin-top: 6px;
+ }
+
+ .userpage .laptopSize .pageNo .showing h1 {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  width: 55px;
+ }
+
+ .userpage .laptopSize .pageNo .showing select {
+  font-weight: 400;
+  font-size: 10px;
+  margin-top: -9px;
+  width: 40px;
+  height: 15px;
+ }
+
+ .userpage .laptopSize .pageNo ul li button {
+  box-shadow: none;
+  outline: none;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .userpage .laptopSize .pageNo ul li button.page-link.active-button {
+  color: #213F7D;
+  font-weight: bold;
+  /* Change the color to your desired value */
+ }
+
+ .userpage .laptopSize .pageNo .short {
+  border-radius: 4px;
+  width: 18px;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+ }
+}
+
+@media (min-width:400px) and (max-width:499px) {
+ .userpage {
+  width: 100%;
+  height: 212vh;
+ }
+
+ .userpage .laptopSize {
+  width: 400px;
+  height: 167vh;
+ }
+
+ .userpage .laptopSize .Title {
+  margin-top: 20px;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 0px;
+ }
+
+ .userpage .laptopSize .Title h1 {
+  font-size: 20px;
+ }
+
+ .userpage .laptopSize .cards {
+  margin-top: 0px;
+  width: 400px;
+  height: 85px;
+  margin-bottom: 20px;
+ }
+
+ .userpage .laptopSize .cards .card {
+  width: 90px;
+  border-radius: 4px;
+  height: 55px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top {
+  width: 85px;
+  padding-left: 10px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top img {
+  width: 15px;
+  height: 15px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body {
+  width: 85px;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  height: 10px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body h1 {
+  font-size: 5px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer {
+  width: 85px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  height: 15px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer h1 {
+  font-size: 8px;
+ }
+
+ .userpage .laptopSize .displayUsers {
+  width: 400px;
+  height: 481px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar {
+  width: 398px;
+  height: 30px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter {
+  width: 150px;
+  height: 405px;
+  margin-top: 32px;
+  padding-left: 8px;
+  padding-top: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter label {
+  font-weight: 500;
+  font-size: 10px;
+  margin-bottom: 6px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter input {
+  width: 130px;
+  height: 25px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  font-size: 9px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter select {
+  width: 130px;
+  height: 25px;
+  margin-bottom: 10px;
+  padding-left: 2px;
+  font-size: 9px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn {
+  width: 130px;
+  height: 25px;
+  margin-bottom: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn input {
+  width: 60px;
+  height: 25px;
+  margin-bottom: 10px;
+  padding: 0;
+ }
+
+ #reset {
+  border: 2px solid #545F7D;
+  color: #545F7D;
+ }
+
+ #filte {
+  border: 0;
+  background-color: #39CDCC;
+  color: #FFFFFF;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters {
+  width: 65.66px;
+  height: 30px;
+  padding-left: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters h1 {
+  font-size: 4.1px;
+  line-height: 14px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters button {
+  width: 20px;
+  height: 20px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters img {
+  width: 5px;
+  height: 5px;
+  margin-top: -7px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU {
+  width: 400px;
+  padding-left: 10px;
+  padding-right: 0px;
+  height: 450px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li {
+  width: 388px;
+  height: 50px;
+  border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li .details {
+  width: 64.66px;
+  font-size: 3.9px;
+  margin-top: 0;
+  padding-right: 10px;
+  height: 50px;
+  word-wrap: break-word;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li .details h1 {
+  word-wrap: break-word;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status {
+  width: 76.36px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status button {
+  width: 30px;
+  height: 15px;
+  border: 0;
+  border-radius: 100px;
+ }
+
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt {
+  width: 15px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt .ellipsis-vertical {
+  width: 100%;
+  height: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO {
+  width: 100px;
+  background-color: #FFFFFF;
+  height: 80px;
+  right: 0;
+  z-index: 12;
+  margin-top: 125px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button {
+  width: 100px;
+  background-color: #FFFFFF;
+  height: 23.33px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button img {
+  width: 8px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 8px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button h1 {
+  font-weight: 500;
+  font-size: 8px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button {
+  width: 100px;
+  height: 23.33px;
+  padding: 0;
+  padding-top: 10px;
+  padding-right: 5px;
+  margin: 0;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button img {
+  width: 8px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 8px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+ }
+
+ .userpage .laptopSize .pageNo {
+  width: 400px;
+  height: 50px;
+ }
+
+ .userpage .laptopSize .pageNo ul {
+  width: 120px;
+  height: 50px;
+  margin-top: 12px;
+  padding: 0px;
+ }
+
+ .userpage .laptopSize .pageNo .showing {
+  height: 50px;
+  width: 155px;
+  margin-top: 6px;
+ }
+
+ .userpage .laptopSize .pageNo .showing h1 {
+  font-weight: 400;
+  font-size: 7px;
+  line-height: 16px;
+  width: 35px;
+ }
+
+ .userpage .laptopSize .pageNo .showing select {
+  font-weight: 400;
+  font-size: 10px;
+  margin-top: -9px;
+  width: 30px;
+  height: 13px;
+ }
+
+ .userpage .laptopSize .pageNo ul li button {
+  box-shadow: none;
+  outline: none;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  padding: 0;
+  font-size: 8px;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .userpage .laptopSize .pageNo ul li button.page-link.active-button {
+  color: #213F7D;
+  font-weight: bold;
+  /* Change the color to your desired value */
+ }
+
+ .userpage .laptopSize .pageNo .short {
+  border-radius: 4px;
+  padding: 0;
+  width: 15px;
+  display: flex;
+  font-size: 8px;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+ }
+}
+
+@media (min-width:300px) and (max-width:399px) {
+ .userpage {
+  width: 100%;
+  height: 212vh;
+ }
+
+ .userpage .laptopSize {
+  width: 300px;
+  height: 167vh;
+ }
+
+ .userpage .laptopSize .Title {
+  margin-top: 20px;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 0px;
+ }
+
+ .userpage .laptopSize .Title h1 {
+  font-size: 20px;
+ }
+
+ .userpage .laptopSize .cards {
+  margin-top: 0px;
+  width: 300px;
+  height: 85px;
+  margin-bottom: 20px;
+ }
+
+ .userpage .laptopSize .cards .card {
+  width: 70px;
+  border-radius: 4px;
+  height: 55px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top {
+  width: 65px;
+  padding-left: 10px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top img {
+  width: 15px;
+  height: 15px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body {
+  width: 65px;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  height: 10px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body h1 {
+  font-size: 4.5px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer {
+  width: 65px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  height: 15px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer h1 {
+  font-size: 8px;
+ }
+
+ .userpage .laptopSize .displayUsers {
+  width: 300px;
+  height: 481px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar {
+  width: 298px;
+  height: 30px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter {
+  width: 150px;
+  height: 405px;
+  margin-top: 32px;
+  padding-left: 8px;
+  padding-top: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter label {
+  font-weight: 500;
+  font-size: 10px;
+  margin-bottom: 6px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter input {
+  width: 130px;
+  height: 25px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  font-size: 9px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter select {
+  width: 130px;
+  height: 25px;
+  margin-bottom: 10px;
+  padding-left: 2px;
+  font-size: 9px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn {
+  width: 130px;
+  height: 25px;
+  margin-bottom: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn input {
+  width: 60px;
+  height: 25px;
+  margin-bottom: 10px;
+  padding: 0;
+ }
+
+ #reset {
+  border: 2px solid #545F7D;
+  color: #545F7D;
+ }
+
+ #filte {
+  border: 0;
+  background-color: #39CDCC;
+  color: #FFFFFF;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters {
+  width: 49.66px;
+  height: 30px;
+  padding-left: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters h1 {
+  font-size: 3.9px;
+  line-height: 14px;
+  margin-right: 2px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters button {
+  width: 5px;
+  height: 5px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters img {
+  width: 4px;
+  height: 4px;
+  margin-top: -9px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU {
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 0px;
+  height: 450px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li {
+  width: 288px;
+  height: 50px;
+  border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li .details {
+  width: 49.66px;
+  font-size: 2.7px;
+  margin-top: 0;
+  padding-right: 10px;
+  height: 50px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li .details h1 {
+  word-wrap: break-word;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status {
+  width: 48px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status button {
+  width: 20px;
+  height: 10px;
+  border: 0;
+  border-radius: 100px;
+ }
+
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt {
+  width: 15px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt .ellipsis-vertical {
+  width: 100%;
+  height: 8px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO {
+  width: 80px;
+  background-color: #FFFFFF;
+  height: 80px;
+  right: 0;
+  z-index: 12;
+  margin-top: 125px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button {
+  width: 80px;
+  background-color: #FFFFFF;
+  height: 23.33px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button img {
+  width: 8px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 8px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button h1 {
+  font-weight: 500;
+  font-size: 8px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button {
+  width: 80px;
+  height: 23.33px;
+  padding: 0;
+  padding-top: 10px;
+  padding-right: 5px;
+  margin: 0;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button img {
+  width: 8px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 8px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+ }
+
+ .userpage .laptopSize .pageNo {
+  width: 300px;
+  height: 50px;
+ }
+
+ .userpage .laptopSize .pageNo ul {
+  width: 80px;
+  height: 50px;
+  margin-top: 12px;
+  padding: 0px;
+ }
+
+ .userpage .laptopSize .pageNo .showing {
+  height: 50px;
+  width: 155px;
+  margin-top: 6px;
+ }
+
+ .userpage .laptopSize .pageNo .showing h1 {
+  font-weight: 400;
+  font-size: 5px;
+  line-height: 16px;
+  width: 25px;
+ }
+
+ .userpage .laptopSize .pageNo .showing select {
+  font-weight: 400;
+  font-size: 6px;
+  margin-top: -9px;
+  width: 30px;
+  height: 10px;
+ }
+
+ .userpage .laptopSize .pageNo ul li button {
+  box-shadow: none;
+  outline: none;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  padding: 0;
+  font-size: 7px;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .userpage .laptopSize .pageNo ul li button.page-link.active-button {
+  color: #213F7D;
+  font-weight: bold;
+  /* Change the color to your desired value */
+ }
+
+ .userpage .laptopSize .pageNo .short {
+  border-radius: 2px;
+  padding: 0;
+  width: 10px;
+  display: flex;
+  font-size: 7px;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+ }
+}
+
+@media (min-width:280px) and (max-width:299px) {
+ .userpage {
+  width: 100%;
+  height: 212vh;
+ }
+
+ .userpage .laptopSize {
+  width: 280px;
+  height: 167vh;
+ }
+
+ .userpage .laptopSize .Title {
+  margin-top: 20px;
+  width: 280px;
+  height: 40px;
+  margin-bottom: 0px;
+ }
+
+ .userpage .laptopSize .Title h1 {
+  font-size: 15px;
+ }
+
+ .userpage .laptopSize .cards {
+  margin-top: 0px;
+  width: 280px;
+  height: 85px;
+  margin-bottom: 20px;
+ }
+
+ .userpage .laptopSize .cards .card {
+  width: 65px;
+  border-radius: 4px;
+  height: 55px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top {
+  width: 60px;
+  padding-left: 10px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .cards .card .card-top img {
+  width: 15px;
+  height: 15px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body {
+  width: 60px;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  height: 10px;
+ }
+
+ .userpage .laptopSize .cards .card .card-body h1 {
+  font-size: 4.5px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer {
+  width: 60px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  height: 15px;
+ }
+
+ .userpage .laptopSize .cards .card .card-footer h1 {
+  font-size: 8px;
+ }
+
+ .userpage .laptopSize .displayUsers {
+  width: 280px;
+  height: 481px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar {
+  width: 278px;
+  height: 30px;
+  border-radius: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter {
+  width: 150px;
+  height: 405px;
+  margin-top: 32px;
+  padding-left: 8px;
+  padding-top: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter label {
+  font-weight: 500;
+  font-size: 10px;
+  margin-bottom: 6px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter input {
+  width: 130px;
+  height: 25px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  font-size: 9px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter select {
+  width: 130px;
+  height: 25px;
+  margin-bottom: 10px;
+  padding-left: 2px;
+  font-size: 9px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn {
+  width: 130px;
+  height: 25px;
+  margin-bottom: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filter .filterBtn input {
+  width: 60px;
+  height: 25px;
+  margin-bottom: 10px;
+  padding: 0;
+ }
+
+ #reset {
+  border: 2px solid #545F7D;
+  color: #545F7D;
+ }
+
+ #filte {
+  border: 0;
+  background-color: #39CDCC;
+  color: #FFFFFF;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters {
+  width: 46.33px;
+  height: 30px;
+  padding-left: 10px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters h1 {
+  font-size: 3.2px;
+  line-height: 14px;
+  margin-right: 2px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters button {
+  width: 4px;
+  height: 4px;
+ }
+
+ .userpage .laptopSize .displayUsers .filterBar .filters img {
+  width: 3px;
+  height: 3px;
+  margin-top: -7px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU {
+  width: 280px;
+  padding-left: 10px;
+  padding-right: 0px;
+  height: 450px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li {
+  width: 258px;
+  height: 50px;
+  border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li .details {
+  width: 46.33px;
+  font-size: 2.4px;
+  margin-top: 0;
+  padding-right: 10px;
+  height: 50px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li .details h1 {
+  word-wrap: break-word;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status {
+  width: 30px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status button {
+  width: 15px;
+  height: 5px;
+  border: 0;
+  font-size: 2px;
+  border-radius: 100px;
+ }
+
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt {
+  width: 15px;
+  height: 30px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statOpt .ellipsis-vertical {
+  width: 100%;
+  height: 5px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO {
+  width: 80px;
+  background-color: #FFFFFF;
+  height: 80px;
+  right: 0;
+  z-index: 12;
+  margin-top: 125px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button {
+  width: 80px;
+  background-color: #FFFFFF;
+  height: 23.33px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button img {
+  width: 8px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 8px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO button h1 {
+  font-weight: 500;
+  font-size: 8px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button {
+  width: 80px;
+  height: 23.33px;
+  padding: 0;
+  padding-top: 10px;
+  padding-right: 5px;
+  margin: 0;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button img {
+  width: 8px;
+  margin-top: -7px;
+  margin-right: 10px;
+  height: 8px;
+ }
+
+ .userpage .laptopSize .displayUsers .displayU li #status .statO .button h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+ }
+
+
+ .userpage .laptopSize .pageNo {
+  width: 280px;
+  height: 50px;
+ }
+
+ .userpage .laptopSize .pageNo ul {
+  width: 80px;
+  height: 50px;
+  margin-top: 12px;
+  padding: 0px;
+ }
+
+ .userpage .laptopSize .pageNo .showing {
+  height: 50px;
+  width: 155px;
+  margin-top: 6px;
+ }
+
+ .userpage .laptopSize .pageNo .showing h1 {
+  font-weight: 400;
+  font-size: 5px;
+  line-height: 16px;
+  width: 25px;
+ }
+
+ .userpage .laptopSize .pageNo .showing select {
+  font-weight: 400;
+  font-size: 6px;
+  margin-top: -9px;
+  width: 30px;
+  height: 10px;
+ }
+
+ .userpage .laptopSize .pageNo ul li button {
+  box-shadow: none;
+  outline: none;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  padding: 0;
+  font-size: 7px;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .userpage .laptopSize .pageNo ul li button.page-link.active-button {
+  color: #213F7D;
+  font-weight: bold;
+  /* Change the color to your desired value */
+ }
+
+ .userpage .laptopSize .pageNo .short {
+  border-radius: 2px;
+  padding: 0;
+  width: 10px;
+  display: flex;
+  font-size: 7px;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+ }
+}

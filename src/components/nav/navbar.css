@@ -1,0 +1,136 @@
+.navbar {
+ width: 100%;
+ min-height: 15vh;
+ display: flex;
+ align-items: center;
+ color: #000000;
+ z-index: 10;
+ background-color: #FFFFFF;
+ padding-left: 20px;
+ padding-right: 50px;
+ box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.048);
+}
+
+::-webkit-scrollbar {
+ display: none;
+}
+
+.navbar img {
+ width: 150px;
+ height: 40px;
+}
+
+.navbar .searchdiv {
+ width: 400px;
+ height: 45px;
+ display: flex;
+ margin-left: -200px;
+ flex-direction: row;
+ border: 1px solid #21407d4f;
+ border-radius: 8px;
+}
+
+.navbar .searchdiv input {
+ width: 340px;
+ height: 45px;
+ color: #545F7D;
+ outline: none;
+ font-style: normal;
+ padding-left: 15px;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 16px;
+ border: 0;
+ background-color: transparent;
+}
+
+.navbar .searchdiv button {
+ width: 60px;
+ height: 44px;
+ outline: none;
+ border: 0px;
+ border-top-right-radius: 8px;
+ border-bottom-right-radius: 8px;
+ background-color: #39CDCC;
+ color: #FFFFFF;
+}
+
+.navbar .detailBtn {
+ width: 300px;
+ display: flex;
+ flex-direction: row;
+ height: 65px;
+}
+
+.navbar .detailBtn .docs {
+ height: 65px;
+ color: #213F7D;
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 19px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 50px;
+}
+
+.navbar .detailBtn .notification {
+ height: 65px;
+ font-size: 16px;
+ width: 80px;
+ background-color: transparent;
+ color: #213F7D;
+ outline: none;
+ border: 0px;
+}
+
+.navbar .detailBtn .profile {
+ height: 65px;
+ border: 0;
+ width: 160px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+.navbar .detailBtn .profile img {
+ height: 55px;
+ border: 0;
+ width: 55px;
+ border-radius: 50%;
+ display: flex;
+ flex-direction: row;
+}
+
+.navbar .detailBtn .profile h1 {
+ font-family: 'Work Sans';
+ font-style: normal;
+ font-weight: 500;
+ margin-left: 10px;
+ font-size: 16px;
+ line-height: 19px;
+ color: #213F7D;
+}
+
+.navbar .detailBtn .profile button {
+ width: 30px;
+ margin-top: -3px;
+ display: flex;
+ justify-content: center;
+ background-color: transparent;
+ border: 0px;
+ outline: none;
+ align-items: start;
+ height: 19px;
+}
+
+.navbar .detailBtn .profile .caretdown {
+ font-family: 'Work Sans';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 19px;
+ color: #213F7D;
+}

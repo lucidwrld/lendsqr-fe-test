@@ -1,0 +1,3105 @@
+.userdetails {
+ width: 100%;
+ height: 222vh;
+ background-color: whitesmoke;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.userdetails .laptopSize {
+ width: 1000px;
+ display: flex;
+ flex-direction: column;
+ height: 204vh;
+}
+
+.userdetails .laptopSize .backBtn {
+ width: 1000px;
+ margin-top: 60px;
+ height: 10vh;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: left;
+}
+
+.userdetails .laptopSize .backBtn .button {
+ width: 200px;
+ text-decoration: none;
+ height: 8vh;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: left;
+}
+
+.userdetails .laptopSize .backBtn .button img {
+ width: 30px;
+ height: 30px;
+ margin-right: 13px;
+}
+
+.userdetails .laptopSize .backBtn .button h1 {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ margin-top: 5px;
+ line-height: 19px;
+ /* identical to box height */
+ color: #545F7D;
+}
+
+.userdetails .laptopSize .title {
+ width: 1000px;
+ display: flex;
+ flex-direction: row;
+ align-items: start;
+ justify-content: space-between;
+ height: 80px;
+}
+
+.userdetails .laptopSize .title h1 {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 24px;
+ line-height: 28px;
+ color: #213F7D;
+}
+
+.userdetails .laptopSize .title .Btns {
+ width: 360px;
+ display: flex;
+ flex-direction: row;
+ align-items: start;
+ justify-content: space-between;
+ height: 40px;
+}
+
+.userdetails .laptopSize .title .Btns button {
+ width: 170px;
+ display: flex;
+ background-color: transparent;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ height: 40px;
+}
+
+.userdetails .laptopSize .title .Btns #blacklist {
+ border: 1px solid #E4033B;
+ border-radius: 8px;
+ font-style: normal;
+ font-weight: 600;
+ font-size: 14px;
+ line-height: 16px;
+ /* identical to box height */
+ text-align: center;
+ letter-spacing: 0.1em;
+ text-transform: uppercase;
+ color: #E4033B;
+}
+
+.userdetails .laptopSize .title .Btns #activate {
+ border: 1px solid #39CDCC;
+ border-radius: 8px;
+ font-style: normal;
+ font-weight: 600;
+ font-size: 14px;
+ line-height: 16px;
+ /* identical to box height */
+ text-align: center;
+ letter-spacing: 0.1em;
+ text-transform: uppercase;
+ color: #39CDCC;
+}
+
+.userdetails .laptopSize .userPro {
+ width: 1000px;
+ height: 210px;
+ display: flex;
+ flex-direction: column;
+ padding-left: 30px;
+ background: #FFFFFF;
+ border: 1px solid rgba(33, 63, 125, 0.06);
+ box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+ border-radius: 4px;
+ margin-bottom: 30px;
+}
+
+.userdetails .laptopSize .userPro .top {
+ width: 940px;
+ height: 181px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: left;
+ background: #FFFFFF;
+}
+
+.userdetails .laptopSize .userPro .top img {
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ margin-right: 20px;
+}
+
+.userdetails .laptopSize .userPro .top .profileName {
+ width: 210px;
+ height: 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: start;
+}
+
+.userdetails .laptopSize .userPro .top .profileName h1 {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 22px;
+ line-height: 26px;
+ /* identical to box height */
+ color: #213F7D;
+}
+
+.userdetails .laptopSize .userPro .top .profileName h2 {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 16px;
+ color: #545F7D;
+}
+
+.userdetails .laptopSize .userPro .top .userTier {
+ width: 133px;
+ height: 80px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border-left: 1px solid #545F7D;
+ border-right: 1px solid #545F7D;
+}
+
+.userdetails .laptopSize .userPro .top .userTier h1 {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ color: #545F7D;
+}
+
+.userdetails .laptopSize .userPro .top .userTier .stars {
+ height: 13.43px;
+ margin-left: -10px;
+ display: flex;
+ flex-direction: row;
+ padding: 0;
+ align-items: center;
+ justify-content: space-between;
+ width: 50px;
+}
+
+.userdetails .laptopSize .userPro .top .userTier .stars img {
+ height: 13px;
+ margin: 0;
+ width: 14px;
+}
+
+.userdetails .laptopSize .userPro .top .bankAmo {
+ height: 50px;
+ margin: 0;
+ width: 250px;
+ margin-top: 5px;
+ display: flex;
+ flex-direction: column;
+ align-items: start;
+ padding-left: 30px;
+ justify-content: center;
+}
+
+.userdetails .laptopSize .userPro .top .bankAmo h1 {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 22px;
+ line-height: 26px;
+ color: #213F7D;
+}
+
+.userdetails .laptopSize .userPro .top .bankAmo h2 {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 14px;
+ /* identical to box height */
+ color: #213F7D;
+}
+
+.userdetails .laptopSize .userPro .bottom {
+ width: 940px;
+ height: 29px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ background: #FFFFFF;
+}
+
+.userdetails .laptopSize .userPro .bottom button {
+ width: 155px;
+ height: 29px;
+ display: flex;
+ border: 0px;
+ outline: none;
+ align-items: center;
+ justify-content: center;
+ background: #FFFFFF;
+}
+
+.userdetails .laptopSize .userPro .bottom button h1 {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 19px;
+ /* identical to box height */
+ text-align: center;
+ color: rgba(0, 0, 0, 0.8);
+}
+
+.userdetails .laptopSize .userPro .bottom .active {
+ border-bottom: 2px solid #39CDCC;
+}
+
+.userdetails .laptopSize .userPro .bottom .active h1 {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 19px;
+ /* identical to box height */
+ text-align: center;
+ color: #39CDCC;
+}
+
+.userdetails .laptopSize .userDetail {
+ width: 1000px;
+ height: 959px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border: 1px solid rgba(33, 63, 125, 0.06);
+ box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+ border-radius: 4px;
+ background-color: #FFFFFF;
+ border: 0px;
+}
+
+.userdetails .laptopSize .userDetail .personalInfo {
+ width: 940px;
+ height: 230px;
+ display: flex;
+ flex-direction: column;
+ border: 0px;
+ border-bottom: 1px solid #213F7D;
+}
+
+.userdetails .laptopSize .userDetail .personalInfo .title {
+ width: 940px;
+ height: 79px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: left;
+}
+
+.userdetails .laptopSize .userDetail .personalInfo .title h1 {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 19px;
+ /* identical to box height */
+ color: #213F7D;
+}
+
+.userdetails .laptopSize .userDetail .personalInfo .personalDetail {
+ width: 940px;
+ height: 130px;
+ display: flex;
+ flex-direction: row;
+ background-color: white;
+ align-items: center;
+ justify-content: space-between;
+ justify-content: left;
+ flex-wrap: wrap;
+}
+
+.userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail {
+ width: 188px;
+ height: 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: start;
+ justify-content: space-between;
+}
+
+.userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h1 {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 14px;
+ /* identical to box height */
+ text-transform: uppercase;
+ color: #545F7D;
+}
+
+.userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h2 {
+ font-style: normal;
+ font-weight: 500;
+ width: 180px;
+ height: 40px;
+ font-size: 10px;
+ text-align: left;
+ line-height: 19px;
+ /* identical to box height */
+ color: #545F7D;
+}
+
+.userdetails .laptopSize .userDetail .educationInfo {
+ width: 940px;
+ height: 230px;
+ display: flex;
+ flex-direction: column;
+ border: 0px;
+ border-bottom: 1px solid #213F7D;
+}
+
+.userdetails .laptopSize .userDetail .educationInfo .title {
+ width: 940px;
+ height: 79px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: left;
+}
+
+.userdetails .laptopSize .userDetail .educationInfo .title h1 {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 19px;
+ /* identical to box height */
+ color: #213F7D;
+}
+
+.userdetails .laptopSize .userDetail .educationInfo .personalDetail {
+ width: 940px;
+ height: 130px;
+ display: flex;
+ flex-direction: row;
+ background-color: white;
+ align-items: center;
+ justify-content: space-between;
+ justify-content: left;
+ flex-wrap: wrap;
+}
+
+.userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail {
+ width: 228px;
+ height: 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: start;
+ justify-content: space-between;
+}
+
+.userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h1 {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 14px;
+ /* identical to box height */
+ text-transform: uppercase;
+ color: #545F7D;
+}
+
+.userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h2 {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 10px;
+ line-height: 19px;
+ /* identical to box height */
+ color: #545F7D;
+}
+
+.userdetails .laptopSize .userDetail .socialInfo {
+ width: 940px;
+ height: 160px;
+ display: flex;
+ flex-direction: column;
+ border: 0px;
+ border-bottom: 1px solid #213F7D;
+}
+
+.userdetails .laptopSize .userDetail .socialInfo .title {
+ width: 940px;
+ height: 79px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: left;
+}
+
+.userdetails .laptopSize .userDetail .socialInfo .title h1 {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 19px;
+ /* identical to box height */
+ color: #213F7D;
+}
+
+.userdetails .laptopSize .userDetail .socialInfo .personalDetail {
+ width: 940px;
+ height: 60px;
+ display: flex;
+ flex-direction: row;
+ background-color: white;
+ align-items: center;
+ justify-content: space-between;
+ justify-content: left;
+ flex-wrap: wrap;
+}
+
+.userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail {
+ width: 188px;
+ height: 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: start;
+ justify-content: space-between;
+}
+
+.userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h1 {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 14px;
+ /* identical to box height */
+ text-transform: uppercase;
+ color: #545F7D;
+}
+
+.userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h2 {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 10px;
+ line-height: 19px;
+ /* identical to box height */
+ color: #545F7D;
+}
+
+
+.userdetails .laptopSize .userDetail .guarantorInfo {
+ width: 940px;
+ height: 160px;
+ display: flex;
+ flex-direction: column;
+ border: 0px;
+ border-bottom: 1px solid #213F7D;
+}
+
+.userdetails .laptopSize .userDetail .guarantorInfo .title {
+ width: 940px;
+ height: 79px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: left;
+}
+
+.userdetails .laptopSize .userDetail .guarantorInfo .title h1 {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 19px;
+ /* identical to box height */
+ color: #213F7D;
+}
+
+.userdetails .laptopSize .userDetail .guarantorInfo .personalDetail {
+ width: 940px;
+ height: 60px;
+ display: flex;
+ flex-direction: row;
+ background-color: white;
+ align-items: center;
+ justify-content: space-between;
+ justify-content: left;
+ flex-wrap: wrap;
+}
+
+.userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail {
+ width: 188px;
+ height: 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: start;
+ justify-content: space-between;
+}
+
+.userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h1 {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 14px;
+ /* identical to box height */
+ text-transform: uppercase;
+ color: #545F7D;
+}
+
+.userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h2 {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 10px;
+ line-height: 19px;
+ /* identical to box height */
+ color: #545F7D;
+}
+
+#guarantorBottom {
+
+ border-bottom: 0px;
+}
+
+@media (min-width: 900px) and (max-width:999px) {
+ .userdetails {
+  width: 100%;
+  height: 212vh;
+ }
+
+ .userdetails .laptopSize {
+  width: 900px;
+  height: 204vh;
+ }
+
+ .userdetails .laptopSize .backBtn {
+  width: 900px;
+  margin-top: 60px;
+  height: 10vh;
+ }
+
+ .userdetails .laptopSize .backBtn .button {
+  width: 200px;
+  height: 8vh;
+ }
+
+ .userdetails .laptopSize .backBtn .button img {
+  width: 30px;
+  height: 30px;
+  margin-right: 13px;
+ }
+
+ .userdetails .laptopSize .backBtn .button h1 {
+  font-size: 16px;
+  margin-top: 5px;
+ }
+
+ .userdetails .laptopSize .title {
+  width: 900px;
+  height: 80px;
+ }
+
+ .userdetails .laptopSize .title h1 {
+  font-size: 24px;
+ }
+
+ .userdetails .laptopSize .title .Btns {
+  width: 360px;
+  height: 40px;
+ }
+
+ .userdetails .laptopSize .title .Btns button {
+  width: 170px;
+  height: 40px;
+ }
+
+ .userdetails .laptopSize .title .Btns #blacklist {
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .title .Btns #activate {
+  border-radius: 8px;
+  line-height: 16px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+  font-size: 13px;
+ }
+
+ .userdetails .laptopSize .userPro {
+  width: 900px;
+  height: 210px;
+  padding-left: 30px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top {
+  width: 840px;
+  height: 181px;
+ }
+
+ .userdetails .laptopSize .userPro .top img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName {
+  width: 210px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h1 {
+  font-size: 22px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h2 {
+  font-size: 14px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier {
+  width: 133px;
+  height: 80px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier h1 {
+  font-size: 14px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars {
+  height: 13.43px;
+  margin-left: -10px;
+  width: 50px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars img {
+  height: 13px;
+  width: 14px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo {
+  height: 50px;
+  margin: 0;
+  width: 250px;
+  margin-top: 5px;
+  padding-left: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h1 {
+  font-size: 22px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h2 {
+  font-size: 12px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom {
+  width: 840px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button {
+  width: 139px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active {
+  border-bottom: 2px solid #39CDCC;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+ }
+
+ .userdetails .laptopSize .userDetail {
+  width: 900px;
+  height: 959px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo {
+  width: 840px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title {
+  width: 840px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title h1 {
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail {
+  width: 840px;
+  height: 130px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail {
+  width: 188px;
+  height: 50px;
+
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h1 {
+  font-size: 12px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h2 {
+  width: 180px;
+  height: 40px;
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo {
+  width: 840px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title {
+  width: 840px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title h1 {
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail {
+  width: 840px;
+  height: 130px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail {
+  width: 208px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h1 {
+  font-size: 12px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h2 {
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo {
+  width: 840px;
+  height: 160px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title {
+  width: 840px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail {
+  width: 840px;
+  height: 60px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail {
+  width: 188px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h1 {
+
+  font-size: 12px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h2 {
+  font-size: 10px;
+ }
+
+
+ .userdetails .laptopSize .userDetail .guarantorInfo {
+  width: 840px;
+  height: 160px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title {
+  width: 840px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title h1 {
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail {
+  width: 840px;
+  height: 60px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail {
+  width: 188px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h1 {
+
+  font-size: 12px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h2 {
+  font-size: 10px;
+ }
+
+}
+
+@media (min-width: 800px) and (max-width:899px) {
+ .userdetails {
+  width: 100%;
+  height: 212vh;
+ }
+
+ .userdetails .laptopSize {
+  width: 800px;
+  height: 204vh;
+ }
+
+ .userdetails .laptopSize .backBtn {
+  width: 800px;
+  margin-top: 60px;
+  height: 10vh;
+ }
+
+ .userdetails .laptopSize .backBtn .button {
+  width: 200px;
+  height: 8vh;
+ }
+
+ .userdetails .laptopSize .backBtn .button img {
+  width: 30px;
+  height: 30px;
+  margin-right: 13px;
+ }
+
+ .userdetails .laptopSize .backBtn .button h1 {
+  font-size: 16px;
+  margin-top: 5px;
+ }
+
+ .userdetails .laptopSize .title.tit {
+  width: 800px;
+  height: 35px !important;
+  margin-bottom: 10px;
+ }
+
+ .userdetails .laptopSize .title h1 {
+  font-size: 24px;
+ }
+
+ .userdetails .laptopSize .title .Btns {
+  width: 300px;
+  height: 35px;
+ }
+
+ .userdetails .laptopSize .title .Btns button {
+  width: 140px;
+  height: 35px;
+ }
+
+ .userdetails .laptopSize .title .Btns #blacklist {
+  border-radius: 8px;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .title .Btns #activate {
+  border-radius: 8px;
+  line-height: 16px;
+  font-size: 11px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .userPro {
+  width: 800px;
+  height: 210px;
+  padding-left: 30px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top {
+  width: 740px;
+  height: 181px;
+ }
+
+ .userdetails .laptopSize .userPro .top img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName {
+  width: 210px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h1 {
+  font-size: 22px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h2 {
+  font-size: 14px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier {
+  width: 133px;
+  height: 80px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier h1 {
+  font-size: 14px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars {
+  height: 13.43px;
+  margin-left: -10px;
+  width: 50px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars img {
+  height: 13px;
+  width: 14px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo {
+  height: 50px;
+  margin: 0;
+  width: 250px;
+  margin-top: 5px;
+  padding-left: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h1 {
+  font-size: 22px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h2 {
+  font-size: 12px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom {
+  width: 740px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button {
+  width: 122px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active {
+  border-bottom: 2px solid #39CDCC;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+ }
+
+ .userdetails .laptopSize .userDetail {
+  width: 800px;
+  height: 959px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo {
+  width: 740px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title {
+  width: 740px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title h1 {
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail {
+  width: 740px;
+  height: 130px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail {
+  width: 178px;
+  height: 50px;
+
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h1 {
+  font-size: 12px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h2 {
+  width: 175px;
+  height: 40px;
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo {
+  width: 740px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title {
+  width: 740px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title h1 {
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail {
+  width: 740px;
+  height: 130px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail {
+  width: 178px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h1 {
+  font-size: 12px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h2 {
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo {
+  width: 740px;
+  height: 160px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title {
+  width: 740px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail {
+  width: 740px;
+  height: 60px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail {
+  width: 178px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h1 {
+
+  font-size: 12px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h2 {
+  font-size: 10px;
+ }
+
+
+ .userdetails .laptopSize .userDetail .guarantorInfo {
+  width: 740px;
+  height: 160px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title {
+  width: 740px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title h1 {
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail {
+  width: 740px;
+  height: 60px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail {
+  width: 178px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h1 {
+
+  font-size: 12px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h2 {
+  font-size: 10px;
+ }
+
+}
+
+@media (min-width: 700px) and (max-width:799px) {
+ .userdetails {
+  width: 100%;
+  height: 212vh;
+ }
+
+ .userdetails .laptopSize {
+  width: 700px;
+  height: 204vh;
+ }
+
+ .userdetails .laptopSize .backBtn {
+  width: 700px;
+  margin-top: 40px;
+  height: 10vh;
+  margin-bottom: 20px;
+ }
+
+ .userdetails .laptopSize .backBtn .button {
+  width: 200px;
+  height: 5vh;
+ }
+
+ .userdetails .laptopSize .backBtn .button img {
+  width: 30px;
+  height: 30px;
+  margin-right: 13px;
+ }
+
+ .userdetails .laptopSize .backBtn .button h1 {
+  font-size: 16px;
+  margin-top: 5px;
+ }
+
+ .userdetails .laptopSize .title.tit {
+  width: 700px;
+  height: 35px !important;
+  margin-bottom: 10px;
+ }
+
+ .userdetails .laptopSize .title h1 {
+  font-size: 24px;
+ }
+
+ .userdetails .laptopSize .title .Btns {
+  width: 260px;
+  height: 35px;
+ }
+
+ .userdetails .laptopSize .title .Btns button {
+  width: 120px;
+  height: 35px;
+ }
+
+ .userdetails .laptopSize .title .Btns #blacklist {
+  border-radius: 8px;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .title .Btns #activate {
+  border-radius: 8px;
+  line-height: 16px;
+  font-size: 10px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .userPro {
+  width: 700px;
+  height: 190px;
+  padding-left: 30px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top {
+  width: 640px;
+  height: 161px;
+ }
+
+ .userdetails .laptopSize .userPro .top img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName {
+  width: 180px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h1 {
+  font-size: 20px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h2 {
+  font-size: 13px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier {
+  width: 133px;
+  height: 70px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier h1 {
+  font-size: 14px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars {
+  height: 13.43px;
+  margin-left: -10px;
+  width: 50px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars img {
+  height: 13px;
+  width: 14px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo {
+  height: 50px;
+  margin: 0;
+  width: 230px;
+  margin-top: 5px;
+  padding-left: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h1 {
+  font-size: 20px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h2 {
+  font-size: 12px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom {
+  width: 640px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button {
+  width: 105px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active {
+  border-bottom: 2px solid #39CDCC;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+ }
+
+ .userdetails .laptopSize .userDetail {
+  width: 700px;
+  height: 959px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo {
+  width: 640px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title {
+  width: 640px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title h1 {
+  font-size: 15px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail {
+  width: 640px;
+  height: 130px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail {
+  width: 160px;
+  height: 50px;
+
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h1 {
+  font-size: 11px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h2 {
+  width: 175px;
+  height: 40px;
+  font-size: 9.5px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo {
+  width: 640px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title {
+  width: 640px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title h1 {
+  font-size: 15px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail {
+  width: 640px;
+  height: 130px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail {
+  width: 160px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h1 {
+  font-size: 11px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h2 {
+  font-size: 9.5px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo {
+  width: 640px;
+  height: 160px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title {
+  width: 640px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail {
+  width: 640px;
+  height: 60px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail {
+  width: 160px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h1 {
+
+  font-size: 11px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h2 {
+  font-size: 9.5px;
+ }
+
+
+ .userdetails .laptopSize .userDetail .guarantorInfo {
+  width: 640px;
+  height: 160px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title {
+  width: 640px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title h1 {
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail {
+  width: 640px;
+  height: 60px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail {
+  width: 160px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h1 {
+
+  font-size: 11px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h2 {
+  font-size: 9.5px;
+ }
+
+}
+
+@media (min-width: 600px) and (max-width:699px) {
+ .userdetails {
+  width: 100%;
+  height: 143vh !important;
+ }
+
+ .userdetails .laptopSize {
+  width: 600px;
+  padding: 0;
+  margin: 0;
+  height: 144vh !important;
+ }
+
+ .userdetails .laptopSize .backBtn {
+  width: 600px;
+  margin-top: 0px;
+  height: 10vh;
+  margin-bottom: 10px;
+ }
+
+ .userdetails .laptopSize .backBtn .button {
+  width: 200px;
+  height: 5vh;
+ }
+
+ .userdetails .laptopSize .backBtn .button img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+ }
+
+ .userdetails .laptopSize .backBtn .button h1 {
+  font-size: 16px;
+  margin-top: 5px;
+ }
+
+ .userdetails .laptopSize .title.tit {
+  width: 600px;
+  height: 35px !important;
+  margin-bottom: 10px;
+ }
+
+ .userdetails .laptopSize .title h1 {
+  font-size: 20px;
+ }
+
+ .userdetails .laptopSize .title .Btns {
+  width: 260px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .title .Btns button {
+  width: 120px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .title .Btns #blacklist {
+  border-radius: 8px;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .title .Btns #activate {
+  border-radius: 8px;
+  line-height: 16px;
+  font-size: 10px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .userPro {
+  width: 600px;
+  height: 150px;
+  padding-left: 30px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top {
+  width: 540px;
+  height: 121px;
+ }
+
+ .userdetails .laptopSize .userPro .top img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName {
+  width: 180px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h1 {
+  font-size: 18px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h2 {
+  font-size: 12px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier {
+  width: 113px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier h1 {
+  font-size: 13px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars {
+  height: 10.43px;
+  margin-left: -10px;
+  width: 40px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars img {
+  height: 10px;
+  width: 10px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo {
+  height: 50px;
+  margin: 0;
+  width: 160px;
+  margin-top: 5px;
+  padding-left: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h1 {
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h2 {
+  font-size: 9px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom {
+  width: 540px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button {
+  width: 90px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active {
+  border-bottom: 2px solid #39CDCC;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+ }
+
+ .userdetails .laptopSize .userDetail {
+  width: 600px;
+  height: 1209px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo {
+  width: 540px;
+  height: 260px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title {
+  width: 540px;
+  margin-top: 10px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title h1 {
+  font-size: 15px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail {
+  width: 540px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail {
+  width: 160px;
+  height: 50px;
+
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h1 {
+  font-size: 11px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h2 {
+  width: 175px;
+  height: 40px;
+  font-size: 9.5px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo {
+  width: 540px;
+  height: 260px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title {
+  width: 540px;
+  margin-top: 10px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title h1 {
+  font-size: 15px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail {
+  width: 540px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail {
+  width: 160px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h1 {
+  font-size: 11px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h2 {
+  font-size: 9.5px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo {
+  width: 540px;
+  height: 160px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title {
+  width: 540px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail {
+  width: 540px;
+  height: 60px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail {
+  width: 160px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h1 {
+
+  font-size: 11px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h2 {
+  font-size: 9.5px;
+ }
+
+
+ .userdetails .laptopSize .userDetail .guarantorInfo {
+  width: 540px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title {
+  width: 540px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title h1 {
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail {
+  width: 540px;
+  height: 200px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail {
+  width: 160px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h1 {
+
+  font-size: 11px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h2 {
+  font-size: 9.5px;
+ }
+
+}
+
+@media (min-width: 500px) and (max-width:599px) {
+ .userdetails {
+  width: 100%;
+  height: 143vh !important;
+ }
+
+ .userdetails .laptopSize {
+  width: 500px;
+  padding: 0;
+  margin: 0;
+  height: 144vh !important;
+ }
+
+ .userdetails .laptopSize .backBtn {
+  width: 500px;
+  margin-top: 0px;
+  height: 10vh;
+  margin-bottom: 10px;
+ }
+
+ .userdetails .laptopSize .backBtn .button {
+  width: 200px;
+  height: 5vh;
+ }
+
+ .userdetails .laptopSize .backBtn .button img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+ }
+
+ .userdetails .laptopSize .backBtn .button h1 {
+  font-size: 10px;
+  margin-top: 5px;
+ }
+
+ .userdetails .laptopSize .title.tit {
+  width: 500px;
+  height: 35px !important;
+  margin-bottom: 10px;
+ }
+
+ .userdetails .laptopSize .title h1 {
+  font-size: 18px;
+ }
+
+ .userdetails .laptopSize .title .Btns {
+  width: 210px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .title .Btns button {
+  width: 100px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .title .Btns #blacklist {
+  border-radius: 8px;
+  font-size: 8px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .title .Btns #activate {
+  border-radius: 8px;
+  line-height: 16px;
+  font-size: 8px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .userPro {
+  width: 500px;
+  height: 150px;
+  padding-left: 30px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top {
+  width: 440px;
+  height: 121px;
+ }
+
+ .userdetails .laptopSize .userPro .top img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName {
+  width: 120px;
+  height: 40px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h1 {
+  font-size: 13px;
+  margin-bottom: 0;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h2 {
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier {
+  width: 93px;
+  height: 40px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier h1 {
+  font-size: 12px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars {
+  height: 10.43px;
+  margin-left: -10px;
+  width: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars img {
+  height: 10px;
+  width: 10px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo {
+  height: 40px;
+  margin: 0;
+  width: 130px;
+  margin-top: 6px;
+  padding-left: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h1 {
+  font-size: 13px;
+  margin-bottom: 0;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h2 {
+  font-size: 8.3px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom {
+  width: 440px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button {
+  width: 73.33px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active {
+  border-bottom: 2px solid #39CDCC;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail {
+  width: 500px;
+  height: 1209px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo {
+  width: 440px;
+  height: 260px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title {
+  width: 440px;
+  margin-top: 10px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title h1 {
+  font-size: 15px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail {
+  width: 440px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail {
+  width: 140px;
+  height: 50px;
+
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h1 {
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h2 {
+  width: 135px;
+  height: 40px;
+  font-size: 9.5px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo {
+  width: 440px;
+  height: 260px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title {
+  width: 440px;
+  margin-top: 10px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title h1 {
+  font-size: 15px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail {
+  width: 440px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail {
+  width: 140px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h1 {
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h2 {
+  font-size: 9.5px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo {
+  width: 440px;
+  height: 160px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title {
+  width: 440px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail {
+  width: 440px;
+  height: 60px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail {
+  width: 140px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h1 {
+
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h2 {
+  font-size: 9.5px;
+ }
+
+
+ .userdetails .laptopSize .userDetail .guarantorInfo {
+  width: 440px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title {
+  width: 440px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title h1 {
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail {
+  width: 440px;
+  height: 200px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail {
+  width: 140px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h1 {
+
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h2 {
+  font-size: 9.5px;
+ }
+
+}
+
+@media (min-width: 400px) and (max-width:499px) {
+ .userdetails {
+  width: 100%;
+  height: 143vh !important;
+ }
+
+ .userdetails .laptopSize {
+  width: 400px;
+  padding: 0;
+  margin: 0;
+  height: 144vh !important;
+ }
+
+ .userdetails .laptopSize .backBtn {
+  width: 400px;
+  margin-top: 0px;
+  height: 10vh;
+  margin-bottom: 10px;
+ }
+
+ .userdetails .laptopSize .backBtn .button {
+  width: 110px;
+  height: 5vh;
+ }
+
+ .userdetails .laptopSize .backBtn .button img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+ }
+
+ .userdetails .laptopSize .backBtn .button h1 {
+  font-size: 10px;
+  margin-top: 5px;
+ }
+
+ .userdetails .laptopSize .title.tit {
+  width: 400px;
+  height: 35px !important;
+  margin-bottom: 10px;
+ }
+
+ .userdetails .laptopSize .title h1 {
+  font-size: 15px;
+ }
+
+ .userdetails .laptopSize .title .Btns {
+  width: 165px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .title .Btns button {
+  width: 80px;
+  height: 25px;
+ }
+
+ .userdetails .laptopSize .title .Btns #blacklist {
+  border-radius: 6px;
+  font-size: 6.5px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .title .Btns #activate {
+  border-radius: 6px;
+  line-height: 16px;
+  font-size: 6.5px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .userPro {
+  width: 400px;
+  height: 150px;
+  padding-left: 10px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top {
+  width: 360px;
+  height: 81px;
+ }
+
+ .userdetails .laptopSize .userPro .top img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName {
+  width: 120px;
+  height: 40px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h1 {
+  font-size: 13px;
+  margin-bottom: 0;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h2 {
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier {
+  width: 93px;
+  height: 40px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier h1 {
+  font-size: 12px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars {
+  height: 10.43px;
+  margin-left: -10px;
+  width: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars img {
+  height: 10px;
+  width: 10px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo {
+  height: 40px;
+  margin: 0;
+  width: 130px;
+  margin-top: 6px;
+  padding-left: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h1 {
+  font-size: 13px;
+  margin-bottom: 0;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h2 {
+  font-size: 7px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom {
+  width: 360px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button {
+  width: 60px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active {
+  border-bottom: 2px solid #39CDCC;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+ }
+
+ .userdetails .laptopSize .userDetail {
+  width: 400px;
+  height: 1209px;
+  padding-left: 10px;
+  align-items: start;
+  padding-right: 0;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo {
+  width: 380px;
+  height: 260px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title {
+  width: 380px;
+  margin-top: 10px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title h1 {
+  font-size: 15px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail {
+  width: 380px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail {
+  width: 125px;
+  height: 50px;
+
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h1 {
+  font-size: 9px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h2 {
+  width: 135px;
+  height: 40px;
+  font-size: 8px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo {
+  width: 380px;
+  height: 260px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title {
+  width: 380px;
+  margin-top: 10px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title h1 {
+  font-size: 15px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail {
+  width: 380px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail {
+  width: 125px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h1 {
+  font-size: 9px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h2 {
+  font-size: 8px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo {
+  width: 380px;
+  height: 160px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title {
+  width: 380px;
+  height: 79px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail {
+  width: 380px;
+  height: 60px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail {
+  width: 125px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h1 {
+
+  font-size: 9px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h2 {
+  font-size: 8px;
+ }
+
+
+ .userdetails .laptopSize .userDetail .guarantorInfo {
+  width: 380px;
+  height: 230px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title {
+  width: 380px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title h1 {
+  font-size: 16px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail {
+  width: 380px;
+  height: 200px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail {
+  width: 125px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h1 {
+
+  font-size: 9px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h2 {
+  font-size: 8px;
+ }
+
+}
+
+@media (min-width: 300px) and (max-width:399px) {
+ .userdetails {
+  width: 100%;
+  height: 143vh !important;
+ }
+
+ .userdetails .laptopSize {
+  width: 300px;
+  padding: 0;
+  margin: 0;
+  height: 144vh !important;
+ }
+
+ .userdetails .laptopSize .backBtn {
+  width: 300px;
+  margin-top: 0px;
+  height: 10vh;
+  margin-bottom: 10px;
+ }
+
+ .userdetails .laptopSize .backBtn .button {
+  width: 110px;
+  height: 5vh;
+ }
+
+ .userdetails .laptopSize .backBtn .button img {
+  width: 16px;
+  height: 20px;
+  margin-right: 5px;
+ }
+
+ .userdetails .laptopSize .backBtn .button h1 {
+  font-size: 6px;
+  margin-top: 5px;
+ }
+
+ .userdetails .laptopSize .title.tit {
+  width: 300px;
+  height: 20px !important;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+ }
+
+ .userdetails .laptopSize .title.tit h1 {
+  font-size: 12px;
+  margin: 0px;
+
+ }
+
+ .userdetails .laptopSize .title .Btns {
+  width: 125px;
+  height: 20px;
+ }
+
+ .userdetails .laptopSize .title .Btns button {
+  width: 60px;
+  height: 20px;
+ }
+
+ .userdetails .laptopSize .title .Btns #blacklist {
+  border-radius: 6px;
+  font-size: 5px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .title .Btns #activate {
+  border-radius: 6px;
+  line-height: 16px;
+  font-size: 5px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .userPro {
+  width: 300px;
+  height: 90px;
+  padding-left: 10px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top {
+  width: 285px;
+  margin-bottom: 0;
+  height: 61px;
+ }
+
+ .userdetails .laptopSize .userPro .top img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 5px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName {
+  width: 100px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h1 {
+  font-size: 8px;
+  height: 17px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin: 0;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h2 {
+  font-size: 6px;
+  height: 10px;
+  margin-top: 0;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier {
+  width: 93px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier h1 {
+  font-size: 8px;
+  margin-top: 3px;
+  margin-bottom: 0;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars {
+  height: 5.43px;
+  margin-left: -10px;
+  margin-top: 0;
+  width: 20px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars img {
+  height: 5px;
+  width: 5px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo {
+  height: 25px;
+  margin: 0;
+  width: 120px;
+  margin-top: 6px;
+  padding: 0;
+  padding-left: 5px;
+
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h1 {
+  font-size: 8px;
+  margin-bottom: 0;
+  margin: 0;
+  margin-top: 3px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h2 {
+  margin-top: -9px;
+  font-size: 6px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom {
+  width: 280px;
+  height: 20px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button {
+  width: 46.66px;
+  height: 20px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.5px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active {
+  border-bottom: 2px solid #39CDCC;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.5px;
+ }
+
+ .userdetails .laptopSize .userDetail {
+  width: 300px;
+  height: 1209px;
+  padding-left: 10px;
+  align-items: start;
+  padding-right: 0;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo {
+  width: 280px;
+  height: 150px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title {
+  width: 280px;
+  margin-top: 10px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title h1 {
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail {
+  width: 280px;
+  height: 100px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail {
+  width: 85px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h1 {
+  font-size: 6px;
+  margin: 0;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h2 {
+  width: 85px;
+  height: 20px;
+  font-size: 5px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo {
+  width: 280px;
+  height: 150px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title {
+  width: 280px;
+  margin-top: 10px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title h1 {
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail {
+  width: 280px;
+  height: 100px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail {
+  width: 85px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h1 {
+  font-size: 6px;
+  margin: 0;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h2 {
+  font-size: 5px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo {
+  width: 280px;
+  height: 90px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title {
+  width: 280px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail {
+  width: 280px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail {
+  width: 85px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h1 {
+  margin: 0;
+  font-size: 6px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h2 {
+  font-size: 5px;
+ }
+
+
+ .userdetails .laptopSize .userDetail .guarantorInfo {
+  width: 280px;
+  height: 105px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title {
+  width: 280px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title h1 {
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail {
+  width: 280px;
+  height: 70px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail {
+  width: 85px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h1 {
+  margin: 0;
+  font-size: 6px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h2 {
+  font-size: 5px;
+ }
+
+}
+
+@media (min-width: 280px) and (max-width:299px) {
+ .userdetails {
+  width: 100%;
+  height: 143vh !important;
+ }
+
+ .userdetails .laptopSize {
+  width: 280px;
+  padding: 0;
+  margin: 0;
+  height: 144vh !important;
+ }
+
+ .userdetails .laptopSize .backBtn {
+  width: 280px;
+  margin-top: 0px;
+  height: 10vh;
+  margin-bottom: 10px;
+ }
+
+ .userdetails .laptopSize .backBtn .button {
+  width: 70px;
+  height: 5vh;
+ }
+
+ .userdetails .laptopSize .backBtn .button img {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+ }
+
+ .userdetails .laptopSize .backBtn .button h1 {
+  font-size: 6px;
+  margin-top: 5px;
+ }
+
+ .userdetails .laptopSize .title.tit {
+  width: 280px;
+  height: 20px !important;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+ }
+
+ .userdetails .laptopSize .title.tit h1 {
+  font-size: 10px;
+  margin: 0px;
+
+ }
+
+ .userdetails .laptopSize .title .Btns {
+  width: 105px;
+  height: 20px;
+ }
+
+ .userdetails .laptopSize .title .Btns button {
+  width: 50px;
+  height: 16px;
+ }
+
+ .userdetails .laptopSize .title .Btns #blacklist {
+  border-radius: 4px;
+  font-size: 4px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .title .Btns #activate {
+  border-radius: 4px;
+  line-height: 16px;
+  font-size: 4px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+ }
+
+ .userdetails .laptopSize .userPro {
+  width: 280px;
+  height: 90px;
+  padding-left: 10px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top {
+  width: 275px;
+  margin-bottom: 0;
+  height: 61px;
+ }
+
+ .userdetails .laptopSize .userPro .top img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 5px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName {
+  width: 100px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h1 {
+  font-size: 8px;
+  height: 17px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin: 0;
+ }
+
+ .userdetails .laptopSize .userPro .top .profileName h2 {
+  font-size: 5px;
+  height: 10px;
+  margin-top: 0;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier {
+  width: 93px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier h1 {
+  font-size: 8px;
+  margin-top: 3px;
+  margin-bottom: 0;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars {
+  height: 5.43px;
+  margin-left: -10px;
+  margin-top: 0;
+  width: 20px;
+ }
+
+ .userdetails .laptopSize .userPro .top .userTier .stars img {
+  height: 5px;
+  width: 5px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo {
+  height: 25px;
+  margin: 0;
+  width: 120px;
+  margin-top: 6px;
+  padding: 0;
+  padding-left: 5px;
+
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h1 {
+  font-size: 8px;
+  margin-bottom: 0;
+  margin: 0;
+  margin-top: 3px;
+ }
+
+ .userdetails .laptopSize .userPro .top .bankAmo h2 {
+  margin-top: -9px;
+  font-size: 5px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom {
+  width: 275px;
+  height: 20px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button {
+  width: 45.83px;
+  height: 20px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom button h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6px;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active {
+  border-bottom: 2px solid #39CDCC;
+ }
+
+ .userdetails .laptopSize .userPro .bottom .active h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6px;
+ }
+
+ .userdetails .laptopSize .userDetail {
+  width: 280px;
+  height: 1209px;
+  padding-left: 10px;
+  align-items: start;
+  padding-right: 0;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo {
+  width: 280px;
+  height: 150px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title {
+  width: 280px;
+  margin-top: 10px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .title h1 {
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail {
+  width: 280px;
+  height: 100px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail {
+  width: 85px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h1 {
+  font-size: 6px;
+  margin: 0;
+ }
+
+ .userdetails .laptopSize .userDetail .personalInfo .personalDetail .Detail h2 {
+  width: 85px;
+  height: 20px;
+  font-size: 5px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo {
+  width: 280px;
+  height: 150px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title {
+  width: 280px;
+  margin-top: 10px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .title h1 {
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail {
+  width: 280px;
+  height: 100px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail {
+  width: 85px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h1 {
+  font-size: 6px;
+  margin: 0;
+ }
+
+ .userdetails .laptopSize .userDetail .educationInfo .personalDetail .Detail h2 {
+  font-size: 5px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo {
+  width: 280px;
+  height: 90px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title {
+  width: 280px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .title h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail {
+  width: 280px;
+  height: 50px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail {
+  width: 85px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h1 {
+  margin: 0;
+  font-size: 6px;
+ }
+
+ .userdetails .laptopSize .userDetail .socialInfo .personalDetail .Detail h2 {
+  font-size: 5px;
+ }
+
+
+ .userdetails .laptopSize .userDetail .guarantorInfo {
+  width: 280px;
+  height: 105px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title {
+  width: 280px;
+  height: 29px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .title h1 {
+  font-size: 10px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail {
+  width: 280px;
+  height: 70px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail {
+  width: 85px;
+  height: 30px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h1 {
+  margin: 0;
+  font-size: 6px;
+ }
+
+ .userdetails .laptopSize .userDetail .guarantorInfo .personalDetail .Detail h2 {
+  font-size: 5px;
+ }
+
+}

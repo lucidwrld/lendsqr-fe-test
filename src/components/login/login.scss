@@ -1,0 +1,622 @@
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../../asset/avenirfont/AvenirNextLTPro-Bold.otf') format('otf'),
+    url('../../asset/avenirfont/AvenirNextLTPro-It.otf') format('otf'),
+    url('../../asset/avenirfont/AvenirNextLTPro-Regular.otf') format('otf'),
+    /* Add other font formats if necessary */
+    /* url('../fonts/avenir-next.ttf') format('truetype') */
+    /* url('../fonts/avenir-next.otf') format('opentype') */
+    /* Specify the font file paths relative to the CSS file */
+}
+
+
+body {
+  font-family: 'Avenir Next', sans-serif;
+}
+
+.Login {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Avenir Next', sans-serif;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.side1 {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.side2 .logo {
+  display: none;
+}
+
+.side1 .logo {
+  width: 100%;
+  height: 30vh;
+  padding-left: 110px;
+  display: flex;
+  align-items: center;
+}
+
+.side1 .logo img {
+  width: 150px;
+  height: 36px;
+}
+
+.side1 .art {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.side1 .art img {
+  width: 600px;
+  height: 300px;
+}
+
+.side2 {
+  height: 100vh;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.11);
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+
+.side2 form {
+  width: 500px;
+  height: 57vh;
+  text-decoration: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  align-items: start;
+  font-family: 'Avenir Next', sans-serif;
+}
+
+.link-no-underline {
+  text-decoration: none;
+}
+
+.link-no-underline h3 {
+  text-decoration: none;
+}
+
+.side2 form h1 {
+  color: #213F7D;
+  font-size: 40px;
+  font-weight: bolder;
+  width: 100%;
+  margin-top: 0;
+  text-align: left;
+  height: 5vh;
+  margin-bottom: 20px;
+  font-family: 'Avenir Next', sans-serif;
+}
+
+.side2 form h2 {
+  font-size: 20px;
+  width: 100%;
+  margin-top: 0;
+  height: 3vh;
+  text-align: left;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-family: 'Avenir Next', sans-serif;
+  color: #545F7D;
+}
+
+.side2 form input {
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  font-family: 'Avenir Next', sans-serif;
+  padding: 0;
+  color: #545F7D;
+  padding-left: 20px;
+  margin-top: 24px;
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  width: 500px;
+}
+
+.side2 form .passHolder {
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  padding: 0;
+  margin-top: 24px;
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+.side2 form .passHolder input {
+  height: 50px;
+  border-radius: 0px;
+  outline: none;
+  margin-top: 0px;
+  border: 0px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  width: 450px;
+}
+
+.side2 form .show {
+  display: flex;
+  background-color: transparent;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-top: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.side2 form .show h4 {
+  margin-top: 7px;
+  color: #39CDCC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.side2 form h3 {
+  color: #39CDCC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 24px;
+  font-family: 'Avenir Next', sans-serif;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.side2 form button {
+  margin-top: 30px;
+  font-family: 'Avenir Next', sans-serif;
+  background: #39CDCC;
+  border: 0px;
+  color: #FFFFFF;
+  font-weight: 600px;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  outline: none;
+  border-radius: 8px;
+  height: 48px;
+  width: 500px;
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+
+  .side2 form {
+    width: 400px;
+    height: 57vh;
+    text-decoration: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: start;
+    font-family: 'Avenir Next', sans-serif;
+  }
+
+  .link-no-underline {
+    text-decoration: none;
+  }
+
+  .link-no-underline h3 {
+    text-decoration: none;
+  }
+
+  .side2 form h1 {
+    color: #213F7D;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 0;
+    text-align: left;
+    height: 5vh;
+    margin-bottom: 15px;
+    font-family: 'Avenir Next', sans-serif;
+  }
+
+  .side2 form h2 {
+    font-size: 20px;
+    width: 100%;
+    margin-top: 0;
+    height: 3vh;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-family: 'Avenir Next', sans-serif;
+    color: #545F7D;
+  }
+
+  .side2 form input {
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Avenir Next', sans-serif;
+    padding: 0;
+    color: #545F7D;
+    padding-left: 20px;
+    margin-top: 17px;
+    border: 2px solid rgba(84, 95, 125, 0.15);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    width: 400px;
+  }
+
+  .side2 form .passHolder {
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    padding: 0;
+    margin-top: 24px;
+    border: 2px solid rgba(84, 95, 125, 0.15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+  }
+
+  .side2 form .passHolder input {
+    height: 40px;
+    border-radius: 0px;
+    outline: none;
+    margin-top: 0px;
+    border: 0px;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    width: 350px;
+  }
+
+  .side2 form .show {
+    display: flex;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 0;
+    width: 50px;
+    height: 40px;
+  }
+
+  .side2 form .show h4 {
+    margin-top: 7px;
+    color: #39CDCC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .side2 form h3 {
+    color: #39CDCC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 24px;
+    font-family: 'Avenir Next', sans-serif;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .side2 form button {
+    margin-top: 30px;
+    font-family: 'Avenir Next', sans-serif;
+    background: #39CDCC;
+    border: 0px;
+    color: #FFFFFF;
+    font-weight: 600px;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    outline: none;
+    border-radius: 8px;
+    height: 48px;
+    width: 400px;
+  }
+
+}
+
+@media (min-width: 280px) and (max-width: 999px) {
+  .side1 {
+    display: none;
+  }
+
+  .side2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 0;
+    background-image: url("../../asset/lendsqrlogin.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .side2 .logo {
+    padding: 0;
+    margin-bottom: 100px;
+    width: 250px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .side2 .logo img {
+    width: 250px;
+    height: 10vh;
+  }
+
+
+
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+  .side2 .logo {
+    padding: 0;
+    margin-bottom: 100px;
+    width: 200px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .side2 .logo img {
+    width: 200px;
+    height: 10vh;
+  }
+
+  .side2 form {
+    width: 430px;
+    height: 57vh;
+  }
+
+  .side2 form h1 {
+    font-size: 40px;
+    height: 5vh;
+    margin-bottom: 20px;
+  }
+
+  .side2 form h2 {
+    font-size: 20px;
+    height: 3vh;
+    margin-bottom: 30px;
+  }
+
+  .side2 form input {
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top: 24px;
+    font-size: 14px;
+    width: 430px;
+  }
+
+  .side2 form .passHolder {
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 24px;
+    border: 2px solid rgba(84, 95, 125, 0.15);
+    width: 430px;
+  }
+
+  .side2 form .passHolder input {
+    height: 50px;
+    font-size: 14px;
+    width: 400px;
+  }
+
+  .side2 form .show {
+    width: 50px;
+    height: 30px;
+  }
+
+  .side2 form .show h4 {
+    margin-top: 7px;
+    font-size: 12px;
+  }
+
+  .side2 form h3 {
+    font-size: 12px;
+    margin-top: 24px;
+  }
+
+  .side2 form button {
+    margin-top: 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    height: 48px;
+    width: 430px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 449px) {
+  .side2 .logo {
+    padding: 0;
+    margin-bottom: 100px;
+    width: 200px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .side2 .logo img {
+    width: 200px;
+    height: 10vh;
+  }
+
+  .side2 form {
+    width: 330px;
+    height: 57vh;
+  }
+
+  .side2 form h1 {
+    font-size: 29px;
+    height: 5vh;
+    margin-bottom: 20px;
+  }
+
+  .side2 form h2 {
+    font-size: 13px;
+    height: 3vh;
+    margin-bottom: 30px;
+  }
+
+  .side2 form input {
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top: 24px;
+    font-size: 14px;
+    width: 330px;
+  }
+
+  .side2 form .passHolder {
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 24px;
+    border: 2px solid rgba(84, 95, 125, 0.15);
+    width: 330px;
+  }
+
+  .side2 form .passHolder input {
+    height: 40px;
+    font-size: 14px;
+    width: 300px;
+  }
+
+  .side2 form .show {
+    width: 40px;
+    height: 30px;
+  }
+
+  .side2 form .show h4 {
+    margin-top: 7px;
+    font-size: 8px;
+  }
+
+  .side2 form h3 {
+    font-size: 10px;
+    margin-top: 24px;
+  }
+
+  .side2 form button {
+    margin-top: 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    height: 38px;
+    width: 330px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 349px) {
+  .side2 .logo {
+    padding: 0;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .side2 .logo img {
+    width: 150px;
+    height: 10vh;
+  }
+
+  .side2 form {
+    width: 250px;
+    height: 57vh;
+  }
+
+  .side2 form h1 {
+    font-size: 25px;
+    height: 5vh;
+    margin-bottom: 20px;
+  }
+
+  .side2 form h2 {
+    font-size: 10px;
+    height: 3vh;
+    margin-bottom: 10px;
+  }
+
+  .side2 form input {
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top: 24px;
+    font-size: 10px;
+    width: 250px;
+  }
+
+  .side2 form .passHolder {
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 24px;
+    border: 2px solid rgba(84, 95, 125, 0.15);
+    width: 250px;
+  }
+
+  .side2 form .passHolder input {
+    height: 35px;
+    font-size: 10px;
+    width: 200px;
+  }
+
+  .side2 form .show {
+    width: 40px;
+    font-size: 10px;
+    height: 35px;
+  }
+
+  .side2 form .show h4 {
+    margin-top: 7px;
+    font-size: 8px;
+  }
+
+  .side2 form h3 {
+    font-size: 9px;
+    margin-top: 24px;
+  }
+
+  .side2 form button {
+    margin-top: 30px;
+    font-size: 12px;
+    border-radius: 8px;
+    height: 28px;
+    width: 250px;
+  }
+}
