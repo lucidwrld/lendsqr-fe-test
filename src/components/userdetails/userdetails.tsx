@@ -116,7 +116,7 @@ const Userdetails: React.FC = () => {
        <h2>LSQFf587g90</h2>
       </div>
       <div className="userTier">
-       <h1>User&aops;s Tier</h1>
+       <h1>User's Tier</h1>
        <div className="stars">
         <img src={starsolid} alt="starsolid" />
         <img src={starlight} alt="starlight" />
