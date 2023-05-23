@@ -46,7 +46,7 @@ const Login: React.FC = () => {
     <form onSubmit={handleLogin}>
      <h1 >Welcome!</h1>
      <h2 >Enter details to login.</h2>
-     <input type='text' placeholder='Email' required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></input>
+     <input type='text' placeholder='Email' required pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></input>
      <div className='passHolder'>
       <input
        type={showPassword ? 'text' : 'password'}
