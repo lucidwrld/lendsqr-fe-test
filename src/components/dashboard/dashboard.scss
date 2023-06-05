@@ -1,139 +1,62 @@
 .Dashboard {
  width: 100%;
  height: 222vh;
- background-color: whitesmoke;
- display: flex;
- flex-direction: column;
- align-items: center;
-}
-
-.Dashboard .laptopSize {
- width: 1000px;
- height: 167vh;
-}
-
-.Dashboard .laptopSize .title {
- height: 10vh;
- width: 100%;
- display: flex;
- flex-direction: row;
- align-items: center;
- justify-content: left;
- margin-top: 10px;
- margin-bottom: 20px;
-}
-
-.Dashboard .laptopSize .title h1 {
- font-style: normal;
- font-weight: bold;
- font-size: 24px;
- line-height: 28px;
- color: #213F7D;
-}
-
-.Dashboard .laptopSize .headings {
- height: 20vh;
- width: 100%;
- display: flex;
- flex-direction: row;
- align-items: center;
- justify-content: space-between;
-}
-
-.Dashboard .laptopSize .headings .card {
- height: 20vh;
- width: 300px;
- display: flex;
- padding: 0;
- border-radius: 8px;
- background-color: white;
- box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.185);
- flex-direction: row;
-}
-
-.Dashboard .laptopSize .headings .card .card-top {
- height: 100%;
- width: 80%;
- display: flex;
- align-items: center;
- justify-content: center;
- border-radius: 0;
- padding-left: 5px;
- padding-right: 5px;
- border-top-left-radius: 8px;
- border-bottom-left-radius: 8px;
-}
-
-.Dashboard .laptopSize .headings .card .card-top h1 {
- font-style: normal;
- font-weight: bold;
- font-size: 19px;
- text-align: center;
- line-height: 28px;
- color: #213F7D;
-}
-
-.Dashboard .laptopSize .headings .card .card-footer {
- height: 100%;
- border: 0;
- background-color: #213F7D;
- width: 20%;
- border-radius: 0;
- border-top-right-radius: 8px;
- border-bottom-right-radius: 8px;
-}
-
-.Dashboard .laptopSize .content {
- margin-top: 20px;
- height: 80vh;
- border-radius: 8px;
- width: 100%;
- display: flex;
  background-image: url("../../asset/dashblur.jpg");
  background-repeat: no-repeat;
  background-size: cover;
- box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.185);
+ display: flex;
  flex-direction: column;
  align-items: center;
- justify-content: center;
-}
 
-.Dashboard .laptopSize .content h1 {
- font-style: normal;
- font-weight: bolder;
- text-shadow: 2px 2px #213F7D;
- font-size: 74px;
- line-height: 28px;
- color: #213F7D;
-}
+ .laptopSize {
+  width: 1000px;
+  height: 167vh;
 
+  .title {
+   height: 10vh;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: left;
+   margin-top: 10px;
+   margin-bottom: 20px;
+
+   h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #213F7D;
+   }
+  }
+
+  .content {
+   margin-top: 20px;
+   height: 80vh;
+   border-radius: 8px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   h1 {
+    font-style: normal;
+    font-weight: bolder;
+    text-shadow: 2px 2px #213F7D;
+    font-size: 74px;
+    line-height: 28px;
+    color: #213F7D;
+   }
+  }
+ }
+}
 
 @media (min-width: 900px) and (max-width: 999px) {
  .Dashboard .laptopSize {
   width: 900px;
   height: 167vh;
- }
-
- .Dashboard .laptopSize .headings {
-  height: 17vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
- }
-
- .Dashboard .laptopSize .headings .card {
-  height: 17vh;
-  width: 280px;
-  display: flex;
-  background-color: white;
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.185);
-  flex-direction: row;
- }
-
- .Dashboard .laptopSize .headings .card .card-top h1 {
-  font-size: 15px;
  }
 }
 
@@ -143,27 +66,6 @@
   height: 167vh;
  }
 
- .Dashboard .laptopSize .headings {
-  height: 14vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
- }
-
- .Dashboard .laptopSize .headings .card {
-  height: 14vh;
-  width: 240px;
-  display: flex;
-  background-color: white;
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.185);
-  flex-direction: row;
- }
-
- .Dashboard .laptopSize .headings .card .card-top h1 {
-  font-size: 15px;
- }
 }
 
 @media (min-width: 700px) and (max-width: 799px) {
@@ -172,27 +74,6 @@
   height: 167vh;
  }
 
- .Dashboard .laptopSize .headings {
-  height: 13vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
- }
-
- .Dashboard .laptopSize .headings .card {
-  height: 13vh;
-  width: 220px;
-  display: flex;
-  background-color: white;
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.185);
-  flex-direction: row;
- }
-
- .Dashboard .laptopSize .headings .card .card-top h1 {
-  font-size: 14px;
- }
 }
 
 @media (min-width: 600px) and (max-width: 699px) {
@@ -201,224 +82,114 @@
   height: 167vh;
  }
 
- .Dashboard .laptopSize .headings {
-  height: 12vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
- }
-
- .Dashboard .laptopSize .headings .card {
-  height: 12vh;
-  width: 190px;
-  display: flex;
-  background-color: white;
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.185);
-  flex-direction: row;
- }
-
- .Dashboard .laptopSize .headings .card .card-top h1 {
-  font-size: 13px;
- }
 }
 
 @media (min-width: 500px) and (max-width: 599px) {
- .Dashboard .laptopSize {
-  width: 500px;
-  height: 167vh;
+ .Dashboard {
+  .laptopSize {
+   width: 500px;
+   height: 167vh;
+
+   .title {
+    height: 6vh;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    h1 {
+     font-size: 18px;
+    }
+   }
+
+   .content {
+    h1 {
+     font-size: 50px;
+    }
+   }
+  }
  }
 
- .Dashboard .laptopSize .title h1 {
-  font-size: 18px;
- }
-
- .Dashboard .laptopSize .title {
-  height: 6vh;
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
- }
-
- .Dashboard .laptopSize .headings {
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
- }
-
- .Dashboard .laptopSize .headings .card {
-  height: 10vh;
-  width: 160px;
-  display: flex;
-  background-color: white;
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.185);
-  flex-direction: row;
- }
-
- .Dashboard .laptopSize .headings .card .card-top h1 {
-  font-size: 9px;
- }
-
- .Dashboard .laptopSize .content h1 {
-  font-size: 50px;
- }
 }
 
 @media (min-width: 400px) and (max-width: 499px) {
- .Dashboard .laptopSize {
-  width: 400px;
-  height: 167vh;
+ .Dashboard {
+  .laptopSize {
+   width: 400px;
+   height: 167vh;
+
+   .title {
+    height: 6vh;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    h1 {
+     font-size: 16px;
+    }
+   }
+
+   .content {
+    h1 {
+     font-size: 40px;
+    }
+   }
+  }
  }
 
- .Dashboard .laptopSize .title h1 {
-  font-size: 16px;
- }
-
- .Dashboard .laptopSize .title {
-  height: 6vh;
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
- }
-
- .Dashboard .laptopSize .headings {
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
- }
-
- .Dashboard .laptopSize .headings .card {
-  height: 10vh;
-  width: 130px;
-  display: flex;
-  background-color: white;
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.185);
-  flex-direction: row;
-  align-items: center;
- }
-
- .Dashboard .laptopSize .headings .card .card-top h1 {
-  font-size: 6.5px;
- }
-
- .Dashboard .laptopSize .content h1 {
-  font-size: 40px;
- }
 }
 
 @media (min-width: 300px) and (max-width: 399px) {
- .Dashboard .laptopSize {
-  width: 300px;
-  height: 167vh;
+ .Dashboard {
+  .laptopSize {
+   width: 300px;
+   height: 167vh;
+
+   .title {
+    height: 6vh;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    h1 {
+     font-size: 14px;
+    }
+   }
+
+   .content {
+    h1 {
+     font-size: 30px;
+     text-shadow: 1px 1px #213F7D;
+    }
+   }
+  }
  }
 
- .Dashboard .laptopSize .title h1 {
-  font-size: 14px;
- }
-
- .Dashboard .laptopSize .title {
-  height: 6vh;
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
- }
-
- .Dashboard .laptopSize .headings {
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
- }
-
- .Dashboard .laptopSize .headings .card {
-  height: 10vh;
-  width: 95px;
-  display: flex;
-  background-color: white;
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.185);
-  flex-direction: row;
- }
-
- .Dashboard .laptopSize .headings .card .card-top {
-  width: 100%;
- }
-
- .Dashboard .laptopSize .headings .card .card-footer {
-  width: 0;
-  display: none;
- }
-
- .Dashboard .laptopSize .headings .card .card-top h1 {
-  font-size: 5.5px;
- }
-
- .Dashboard .laptopSize .content h1 {
-  font-size: 30px;
-  text-shadow: 1px 1px #213F7D;
- }
 }
 
 @media (min-width: 280px) and (max-width: 299px) {
- .Dashboard .laptopSize {
-  width: 280px;
-  height: 167vh;
+ .Dashboard {
+  .laptopSize {
+   width: 280px;
+   height: 167vh;
+
+   .title {
+    height: 6vh;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    h1 {
+     font-size: 14px;
+    }
+   }
+
+   .content {
+    h1 {
+     font-size: 30px;
+     text-shadow: 1px 1px #213F7D;
+    }
+   }
+  }
  }
 
- .Dashboard .laptopSize .title h1 {
-  font-size: 14px;
- }
-
- .Dashboard .laptopSize .title {
-  height: 6vh;
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
- }
-
- .Dashboard .laptopSize .headings {
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
- }
-
- .Dashboard .laptopSize .headings .card {
-  height: 10vh;
-  width: 90px;
-  display: flex;
-  background-color: white;
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.185);
-  flex-direction: row;
- }
-
- .Dashboard .laptopSize .headings .card .card-top {
-  width: 100%;
-  padding-left: 0px;
-  padding-right: 0px;
- }
-
- .Dashboard .laptopSize .headings .card .card-footer {
-  width: 0;
-  display: none;
- }
-
- .Dashboard .laptopSize .headings .card .card-top h1 {
-  font-size: 4.9px;
- }
-
- .Dashboard .laptopSize .content h1 {
-  font-size: 30px;
-  text-shadow: 1px 1px #213F7D;
- }
 }
