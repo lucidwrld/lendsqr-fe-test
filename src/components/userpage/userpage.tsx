@@ -28,6 +28,10 @@ interface User {
   phoneNumber: string;
   createdAt: string;
 }
+interface Props {
+  apiData: string;
+}
+
 // Userpage component
 const Userpage: React.FC = () => {
   // State variables
@@ -58,6 +62,26 @@ const Userpage: React.FC = () => {
   //function to update the current page with the provided page number
   const paginate = (pageNumber: number) => {
     setCurrentPage(pageNumber);
+  };
+
+  const DateTimeConverter: React.FC<Props> = ({ apiData }) => {
+    const formattedDate = formatDate(apiData);
+    console.log(formattedDate)
+    return <div className="details"><h1 className="details" id="datejoined">{formattedDate}</h1></div>;
+  };
+
+  const formatDate = (dateString: string): string => {
+    const options: Intl.DateTimeFormatOptions = {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+      hour12: true,
+    };
+
+    const date = new Date(dateString);
+    return date.toLocaleDateString('en-US', options);
   };
 
   //function to move to the next page
@@ -249,7 +273,8 @@ const Userpage: React.FC = () => {
               <div className="details" ><h1 className="details" id="username">{user.userName}</h1></div>
               <div className="details" ><h1 className="details" id="email">{user.email}</h1></div>
               <div className="details" ><h1 className="details" id="phonenumber">{user.phoneNumber}</h1></div>
-              <div className="details" ><h1 className="details" id="datejoined">{user.createdAt}</h1></div>
+              <div className="details" ><h1 className="details" id="datejoined"><DateTimeConverter apiData={user.createdAt} />
+              </h1></div>
               <div className="details" id="status">
                 <button disabled className="stat">
                   Active
